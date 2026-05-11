@@ -1,42 +1,63 @@
-# 📚 AWS Certified Solutions Architect – Associate (SAA-C03)
-
 <p align="center">
-  <img src="./foto-thiago-cardoso.jpg" alt="Thiago Cardoso" width="180" style="border-radius: 12px;" />
+  <img src="./assets/Banner-SolutionsArchitect.png" alt="Banner AWS Solutions Architect Associate" width="100%" />
 </p>
 
-<p align="center"><strong>Criado por Thiago Cardoso</strong><br/>
-<a href="https://www.linkedin.com/in/analyticsthiagocardoso">LinkedIn</a></p>
-
----
-
-## ☕ Apoie este Projeto
-
-Se este conteúdo ajudou nos seus estudos para a certificação **AWS Solutions Architect Associate**, considere apoiar com um café! O projeto é 100% gratuito e qualquer contribuição ajuda a manter o material atualizado.
-
-### Doação via Pix
-
-Você pode usar a chave aleatória abaixo ou escanear o QR Code:
-
-**Chave Pix (Copia e Cola):**
-`c8ca2085-c329-4712-8da9-397d10b41cf5`
-
 <p align="center">
-<img width="250" height="250" alt="Image" src="https://github.com/user-attachments/assets/351596f0-5896-404b-ab19-d55a661d5b9b" />
+  <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="240" />
+  <img src="./assets/Solution%20Architect%20Badge.png" alt="AWS Solutions Architect Associate Badge" width="180" />
 </p>
 
----
-<h2 align="center">Star History</h2>
+<h1 align="center">AWS Solutions Architect Associate (SAA-C03)</h1>
+
+<p align="center">Arquitetura AWS, escalabilidade e preparação real para certificação.</p>
 
 <p align="center">
-  <a href="https://www.star-history.com/#Thiago-code-lab/aws-solutions-architect-brasil&Date">
-    <img
-      src="https://api.star-history.com/svg?repos=Thiago-code-lab/aws-solutions-architect-brasil&type=Date"
-      alt="Star History Chart"
-    />
+  <a href="https://github.com/thiago-code-lab/aws-solutions-architect-brasil/stargazers">
+    <img src="https://img.shields.io/github/stars/thiago-code-lab/aws-solutions-architect-brasil?style=flat-square" alt="GitHub stars" />
+  </a>
+  <a href="https://github.com/thiago-code-lab/aws-solutions-architect-brasil/network/members">
+    <img src="https://img.shields.io/github/forks/thiago-code-lab/aws-solutions-architect-brasil?style=flat-square" alt="GitHub forks" />
+  </a>
+  <a href="https://github.com/thiago-code-lab/aws-solutions-architect-brasil/commits/main">
+    <img src="https://img.shields.io/github/last-commit/thiago-code-lab/aws-solutions-architect-brasil?style=flat-square&label=%C3%9Altimo%20commit" alt="Último commit" />
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/thiago-code-lab/aws-solutions-architect-brasil?style=flat-square&label=MIT" alt="Licença MIT" />
   </a>
 </p>
 
- ## 🚦 Por onde começar
+<p align="center">
+  <img src="https://img.shields.io/badge/conte%C3%BAdo-PT--BR-0f766e?style=flat-square" alt="Conteúdo PT-BR" />
+  <img src="https://img.shields.io/badge/open%20source-sim-2563eb?style=flat-square" alt="Open source" />
+  <img src="https://img.shields.io/badge/uso-educacional-f59e0b?style=flat-square" alt="Educacional" />
+</p>
+
+<p align="center">
+  <a href="#roteiro-de-estudo">Roteiro de estudo</a> •
+  <a href="#modulos">Módulos</a> •
+  <a href="./29-Simulados-e-Questoes/README.md">Simulados</a> •
+  <a href="./31-Recursos-e-Links/README.md">Recursos</a>
+</p>
+
+<p align="center"><sub>Material aberto por Thiago Cardoso • <a href="https://www.linkedin.com/in/analyticsthiagocardoso">LinkedIn</a></sub></p>
+
+---
+
+## O que você vai encontrar neste repositório
+
+| Tema | O que você encontra aqui |
+|---|---|
+| Arquiteturas reais da AWS | Cenários de prova, trade-offs e decisões arquiteturais com foco prático. |
+| Alta disponibilidade e resiliência | Multi-AZ, failover, desacoplamento, continuidade e estratégias de DR. |
+| Segurança e IAM | IAM, KMS, criptografia, políticas, auditoria e governança aplicada. |
+| Redes e VPC | Subnets, roteamento, endpoints, conectividade híbrida e segurança de rede. |
+| Banco de dados e armazenamento | RDS, Aurora, DynamoDB, S3, EBS, EFS e escolhas por desempenho e custo. |
+| Serverless e containers | Lambda, API Gateway, ECS, EKS, Fargate e padrões modernos de execução. |
+| Otimização de custos | Rightsizing, storage classes, automação e decisões custo-eficientes. |
+| Simulados comentados | Questões no estilo SAA-C03, revisão de alternativas e caderno de erros. |
+| Labs, mapas e flashcards | Labs guiados, roteiros por semana, cheatsheets e revisão espaçada. |
+
+## 🚦 Por onde começar
 
 - **Trilha para iniciantes (do zero):** siga [Módulo 01](./01-Introducao-SAA-C03/README.md) → [Módulo 02](./02-IAM-e-Seguranca/README.md) → [Módulo 04](./04-Computacao-EC2/README.md) → [Módulo 05](./05-Alta-Disponibilidade-e-Escalabilidade/README.md) → [Módulo 06](./06-Amazon-S3-e-Armazenamento/README.md) → [Módulo 08](./08-VPC-e-Redes/README.md) → [Módulo 10](./10-Banco-de-Dados/README.md) e complete na ordem até [Módulo 31](./31-Recursos-e-Links/README.md), incluindo os labs correspondentes em cada semana.
 - **Revisão rápida:** faça revisão por [cheatsheets](./01-Introducao-SAA-C03/cheatsheet.md), [flashcards](./01-Introducao-SAA-C03/flashcards.md) e [questões](./29-Simulados-e-Questoes/README.md), priorizando módulos com maior peso no exame (segurança, resiliência, performance e custo).
@@ -49,8 +70,6 @@ Portal publicado: https://thiago-code-lab.github.io/aws-solutions-architect-bras
 ## 🎯 Sobre este Repositório
 
 Este repositório se diferencia por combinar conteúdo em Português do Brasil com foco em raciocínio arquitetural real (trade-offs, casos de uso e armadilhas de prova), labs curados para baixo custo, portal navegável no GitHub Pages e questões práticas no estilo do exame SAA-C03.
-
-[![GitHub Pages](https://img.shields.io/website?url=https%3A%2F%2Fthiago-code-lab.github.io%2Faws-solutions-architect-brasil%2F&label=GitHub%20Pages)](https://thiago-code-lab.github.io/aws-solutions-architect-brasil/) [![Deploy GitHub Pages](https://github.com/thiago-code-lab/aws-solutions-architect-brasil/actions/workflows/deploy.yml/badge.svg)](https://github.com/thiago-code-lab/aws-solutions-architect-brasil/actions/workflows/deploy.yml) [![License](https://img.shields.io/github/license/thiago-code-lab/aws-solutions-architect-brasil)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/thiago-code-lab/aws-solutions-architect-brasil?style=social)](https://github.com/thiago-code-lab/aws-solutions-architect-brasil/stargazers)
 
 Este material foi estruturado para um estudante de nível intermediário, que já usa AWS no dia a dia e já domina os fundamentos de cloud. O foco não é memorização cega: o objetivo é desenvolver o raciocínio esperado de um arquiteto de soluções, entendendo trade-offs entre resiliência, desempenho, segurança e custo.
 
@@ -65,6 +84,7 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 | Aplicações e arquiteturas seguras (Design Secure Applications and Architectures) | 24% | IAM, KMS, isolamento de rede, criptografia, trilhas de auditoria e governança | 02, 03, 08, 09, 14, 17, 20, 23, 24, 25 |
 | Arquiteturas otimizadas em custo (Design Cost-Optimized Architectures) | 18% | Rightsizing, classes de storage, modelos de compra, serverless e automação | 04, 06, 15, 17, 21, 23 |
 
+<a id="roteiro-de-estudo"></a>
 ## 🗺️ Mapa de Estudos
 
 ### Semana 1
@@ -115,6 +135,7 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 - Módulo 29: simulados completos
 - Módulo 30 e 31: glossário e revisão de links oficiais
 
+<a id="modulos"></a>
 ## 📁 Módulos
 
 | # | Módulo | Domínio predominante | Status | Link |
