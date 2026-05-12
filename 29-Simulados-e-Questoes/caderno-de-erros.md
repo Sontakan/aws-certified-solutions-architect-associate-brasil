@@ -1,28 +1,30 @@
 ﻿# Caderno de Erros
 
-Template rapido para evolucao por repeticao consciente.
-
-## Registro por questao
+## Template por questao
 
 - Dominio:
 - Tema:
-- Erro cometido:
-- Resposta correta:
-- Motivo do erro:
-- Regra de decisao para evitar repeticao:
+- Alternativa marcada:
+- Alternativa correta:
+- Motivo tecnico do erro:
+- Regra de decisao para nao repetir:
 
-## Revisao semanal
+## Classificacao de erro
 
-1. Agrupe erros por tema recorrente.
-2. Releia apenas os modulos relacionados.
-3. Resolva 10 questoes focadas no mesmo tema.
-4. Atualize a regra de decisao com linguagem objetiva.
+- **Conceito:** confusao entre servicos/padroes.
+- **Leitura:** ignorou requisito-chave do enunciado.
+- **Trade-off:** escolheu opcoes corretas tecnicamente, mas piores em custo/operacao.
+- **Pressa:** respondeu sem eliminar alternativas.
 
-## Meta
+## Rotina semanal (20 minutos)
 
-Reduzir reincidencia de erro em temas de alto impacto na prova.
+1. Agrupe erros por tema repetido.
+2. Releia apenas `cheatsheet.md` e `questoes.md` do modulo afetado.
+3. Refaca 5 questoes focadas no mesmo tipo de erro.
+4. Atualize regra objetiva de decisao.
 
----
+## Indicador de evolucao
 
-## Proximos passos
-
+- Reincidencia alta: mesmo erro em 2 ou mais simulados.
+- Reincidencia controlada: erro corrigido em ate 1 ciclo de revisao.
+- Dominio consolidado: acerto consistente acima de 80% no tema.

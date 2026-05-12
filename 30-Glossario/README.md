@@ -1,41 +1,45 @@
 ﻿# Glossario
 
-Este módulo apresenta os conceitos essenciais de **Glossario** no contexto de arquitetura AWS para SAA-C03. O foco é apoiar decisões de design com clareza, priorizando disponibilidade, segurança, eficiência de custo e simplicidade operacional.
+## Visao Geral
 
-## O que dominar neste módulo
+Este modulo cobre **Termos recorrentes de arquitetura AWS** com foco no tipo de decisao que aparece no SAA-C03. A ideia central e transformar requisitos de negocio em escolhas tecnicas objetivas, equilibrando resiliencia, desempenho, seguranca e custo. Em prova, o diferencial nao e decorar servico isolado: e identificar qual restricao do cenario pesa mais e escolher o padrao que reduz risco operacional.
 
-- Papel do serviço na arquitetura de referência.
-- Decisões de projeto que aparecem com frequência em cenários de prova.
-- Integrações mais comuns com serviços adjacentes.
-- Limites práticos, riscos recorrentes e mitigação básica.
+## Conceitos-Chave
 
-## Intuição de Arquitetura
+- Papel dos servicos: Termos AWS, Alta disponibilidade, Escalabilidade.
+- Priorizacao por requisito dominante (latencia, disponibilidade, conformidade ou custo).
+- Integracao entre servicos com desacoplamento e observabilidade minima.
+- Escolha de arquitetura com menor complexidade viavel para o contexto.
 
-Ao modelar uma solução com Glossario, avalie primeiro o requisito crítico do sistema: latência, resiliência, conformidade ou elasticidade. Em seguida, escolha o padrão mínimo que atende ao objetivo sem aumentar complexidade desnecessária. Em cenários de exame, respostas fortes costumam equilibrar três fatores: desacoplamento entre componentes, observabilidade para operação contínua e proteção de dados em repouso e em trânsito.
+## Relevancia para o Exame
 
-Também é importante diferenciar decisões de curto prazo (entrega rápida com baixa sobrecarga operacional) de decisões de escala (governança, automação e padronização). Para cargas variáveis, prefira mecanismos gerenciados e políticas automáticas de ajuste. Para cargas previsíveis, otimize capacidade e custos com estratégias de dimensionamento e armazenamento adequadas.
+No SAA-C03, este dominio costuma aparecer em perguntas com duas alternativas tecnicamente possiveis. O desempate normalmente vem de detalhes como: modelo de consistencia, estrategia de failover, custo de operacao recorrente, impacto de throughput e nivel de automacao exigido. Por isso, estudar este modulo significa treinar criterio de escolha, nao apenas nomenclatura.
 
-## Padrões que mais caem
+## Sinais Praticos (3 a 5)
 
-- Arquitetura altamente disponível com falha isolada por componente.
-- Camadas desacopladas para absorção de picos e retry controlado.
-- Segurança por menor privilégio e segmentação de acesso.
-- Observabilidade com métricas, logs e alarmes orientados a ação.
+1. Quando o enunciado pede resposta elastica com pouca operacao manual, privilegie servicos gerenciados.
+2. Quando houver dependencia entre componentes, valide se existe desacoplamento para absorver pico e falha parcial.
+3. Quando houver restricao de seguranca, confirme criptografia em transito/repouso e menor privilegio.
+4. Se o custo for parte do requisito, compare classes de consumo, modo de capacidade e padrao de acesso.
+5. Se o cenario for global, valide rota de trafego, latencia e estrategia de distribuicao.
 
-## Roteiro de revisão rápida
+## Armadilhas Comuns
 
-1. Leia o cheatsheet.md antes de resolver questões.
-2. Use flashcards.md para reforço de termos-chave.
-3. Execute o lab.md para fixar fluxo e integração.
-4. Retorne às questões e valide evolução no domínio.
+- Escolher recurso premium sem necessidade real do cenario.
+- Confundir recurso de alta disponibilidade com recurso de escala de leitura.
+- Ignorar limites de servico e comportamento em falha.
+- Resolver requisito de seguranca com ferramenta inadequada para ciclo de vida do segredo.
 
----
+## Proximo Passo de Revisao
 
-## Estudos complementares
+1. Revise o cheatsheet.md para consolidar sinais de decisao.
+2. Resolva questoes.md sem consulta para testar julgamento tecnico.
+3. Use lashcards.md em revisao curta diaria para fixar diferencas criticas.
 
-Uma revisao rapida de fundamentos AWS pode ser feita em paralelo pela trilha Cloud Practitioner:
+## Estudos Complementares
+
+Para reforco de fundamentos AWS antes de aprofundar cenarios arquiteturais:
 https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
 
-Estudos complementares de IA na AWS podem ser aprofundados na trilha AI Practitioner:
+Para conectar arquitetura com IA generativa e Bedrock em trilha complementar:
 https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
-

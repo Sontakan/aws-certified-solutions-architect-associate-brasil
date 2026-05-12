@@ -1,25 +1,27 @@
 ﻿# Guia Rapido
 
-## Essenciais
+## Tabela de decisao
 
-- Requisito primeiro: defina prioridade (latencia, custo, resiliencia, seguranca).
-- Menor complexidade viavel: escolha o padrao mais simples que atende o cenario.
-- Observabilidade obrigatoria: metricas, logs e alarmes desde o inicio.
+| Sinal do enunciado | Quando usar | Quando evitar | Armadilha de prova |
+|---|---|---|---|
+| Baixa operacao manual | Servico gerenciado com automacao nativa | Solucao autogerenciada sem necessidade | Confundir controle total com melhor custo total |
+| Pico imprevisivel | Escala horizontal e desacoplamento | Capacidade fixa e ajuste manual | Dimensionar para media e falhar no pico |
+| Requisito de seguranca forte | Menor privilegio + criptografia + auditoria | Permissao ampla por conveniencia | Achar que criptografia sozinha resolve governanca |
+| Custo como restricao explicita | Escolha por perfil de consumo e acesso | Classe unica para todo dado | Reduzir custo sem validar impacto funcional |
 
-## Checklist rapido
+## Sinais de servico
 
-- Alta disponibilidade sem ponto unico de falha.
-- Controle de acesso por menor privilegio.
-- Criptografia em repouso e em transito quando aplicavel.
-- Mecanismo de escala ou absorcao de pico.
+- **Documentacao**: priorize quando o cenario precisa de integracao nativa e menor carga operacional.
+- **Whitepapers**: use quando houver necessidade de elasticidade controlada e comportamento previsivel em pico.
 
-## Armadilhas frequentes
+## Quando usar este modulo na revisao
 
-- Escolher servico correto sem considerar operacao.
-- Otimizar custo e perder resiliencia critica.
-- Ignorar limites e cotas do servico.
+- Antes de simulados de arquitetura com foco em trade-offs.
+- Quando houver erro recorrente de escolha entre duas alternativas parecidas.
+- Na reta final para calibrar criterio de eliminacao de opcoes.
 
----
+## Armadilhas recorrentes
 
-## Continue a revisao
-
+- Resolver disponibilidade com recurso de performance.
+- Trocar simplicidade por arquitetura superdimensionada.
+- Ignorar observabilidade ao definir desenho final.

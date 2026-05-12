@@ -1,25 +1,39 @@
 ﻿# Lab Guiado
 
-Objetivo: montar uma arquitetura minima funcional para validar o fluxo principal do dominio.
+## Objetivo
 
-## Passos
+Montar um fluxo minimo funcional que demonstre **Laboratorio de fanout e processamento assincrono**, com validacao clara de comportamento e custo controlado para ambiente de estudo.
 
-1. Crie os recursos essenciais do servico em ambiente de teste.
-2. Conecte o servico a um componente de entrada e um de observabilidade.
-3. Execute uma carga simples para validar comportamento.
-4. Registre metrica, log e um ajuste de configuracao.
+## Servicos usados
 
-## Resultado esperado
+SQS, SNS, Lambda.
 
-- Fluxo funcionando de ponta a ponta.
-- Evidencia de monitoramento basico.
-- Entendimento de um trade-off arquitetural do modulo.
+## Faixa de custo esperada
 
-## Extensao opcional
+- Ambiente de estudo curto: baixo custo se executado por poucas horas.
+- Evite manter recursos ativos apos validacao.
+- Priorize camada gratuita quando disponivel.
 
-Teste uma variacao com foco em custo ou disponibilidade e compare os impactos.
+## Passo a passo
 
----
+1. Crie os recursos essenciais do fluxo em uma conta de laboratorio.
+2. Configure politicas minimas de acesso e observabilidade basica.
+3. Execute carga de teste pequena para validar resposta funcional.
+4. Simule uma falha simples (interrupcao de componente) e observe recuperacao.
+5. Registre metrica-chave e ajuste uma configuracao para comparar resultado.
 
-## Labs adicionais
+## Validacao
 
+- Fluxo de ponta a ponta executa sem erro critico.
+- Logs/metricas mostram comportamento esperado.
+- Existe evidencia de decisao entre desempenho e custo.
+
+## Cleanup
+
+1. Remova recursos criados no laboratorio.
+2. Apague dados temporarios e snapshots nao necessarios.
+3. Revise faturamento no dia seguinte para confirmar encerramento.
+
+## Takeaway para prova
+
+O ponto principal e identificar qual servico reduz risco operacional mantendo aderencia ao requisito central do cenario.

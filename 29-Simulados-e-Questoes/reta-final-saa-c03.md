@@ -1,25 +1,32 @@
-﻿# Reta Final SAA-C03
+﻿# Reta Final SAA-C03 (14 dias)
 
-Plano de 7 dias para consolidacao final.
+## Bloco 1 (Dias 1-4): fundamentos de maior peso
 
-1. Dia 1-2: seguranca, IAM e criptografia.
-2. Dia 3: computacao, escalabilidade e serverless.
-3. Dia 4: armazenamento, bancos e analytics.
-4. Dia 5: redes, DNS e conectividade.
-5. Dia 6: observabilidade, governanca e custos.
-6. Dia 7: simulado completo + revisao dos erros.
+- Seguranca: IAM, KMS, trilha de auditoria.
+- Resiliencia: Multi-AZ, desacoplamento, DR.
+- Redes: VPC, endpoints, DNS e distribuicao.
 
-## Checkpoint diario
+## Bloco 2 (Dias 5-9): desempenho e custo
 
-- 30 a 45 minutos de questoes.
-- 15 minutos de cartoes de revisao.
-- 1 laboratorio curto de reforco.
+- Compute, banco e cache por perfil de carga.
+- Serverless e mensageria para elasticidade.
+- Otimizacao de armazenamento e transferencia.
 
-## Foco de prova
+## Bloco 3 (Dias 10-14): prova dirigida
 
-Priorize leitura de requisitos e identificacao de trade-offs antes de escolher o servico.
+- 2 simulados completos em ambiente sem consulta.
+- Revisao do caderno de erros por prioridade.
+- Refaco de mini-simulados por dominio critico.
 
----
+## Regra de decisao rapida
 
-## Aprofundamento recomendado
+1. Ache o requisito dominante.
+2. Elimine opcoes que quebram esse requisito.
+3. Compare custo operacional entre as finalistas.
+4. Escolha a solucao mais simples que atende o cenario.
 
+## Fechamento na vespera
+
+- Revisao curta de flashcards e traps.
+- Nada de topico novo pesado.
+- Foco em sono, ritmo e leitura atenta de enunciado.

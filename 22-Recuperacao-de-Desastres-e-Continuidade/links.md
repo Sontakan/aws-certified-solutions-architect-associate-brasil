@@ -1,20 +1,15 @@
 ﻿# Links Recomendados
 
-## Documentacao AWS
+## Referencias oficiais AWS
+- https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html
+- https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html
 
-- Pagina oficial do servico na documentacao oficial da AWS.
-- Guia de boas praticas arquiteturais relacionado.
-- FAQs e limites de servico para revisao tecnica.
+## Por que estes links importam
+- Documentacao oficial reduz ambiguidade de comportamento de servico em prova.
+- Guias de boas praticas ajudam a entender trade-off, nao apenas configuracao.
+- Whitepapers e paginas de certificacao alinham terminologia e expectativa do exame.
 
-## Reforco de Estudo
-
-- Whitepaper relevante do dominio.
-- Workshops oficiais com laboratorios introdutorios.
-- Exam prep da AWS Skill Builder para o tema.
-
-## Como consumir
-
-- Leia primeiro a visao geral.
-- Depois aprofunde em limites e seguranca.
-- Finalize com um laboratorio curto de validacao.
-
+## Ordem sugerida de leitura
+1. Visao geral do servico.
+2. Limites, seguranca e custos.
+3. Boas praticas e padroes de arquitetura.
