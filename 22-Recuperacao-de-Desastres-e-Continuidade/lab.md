@@ -1,32 +1,25 @@
-# Lab - DR Multi-Region Basico
+﻿# Lab Guiado
 
-## Objetivo
-Implementar um failover simples com Route 53 e replicacao de dados em S3.
+Objetivo: montar uma arquitetura minima funcional para validar o fluxo principal do dominio.
 
 ## Passos
 
-1. Crie dois buckets S3 em regioes diferentes.
-2. Habilite versioning em ambos.
-3. Configure CRR do bucket primario para o secundario.
-4. Publique uma pagina estatica em duas regioes (S3 static website ou EC2 minima).
-5. Configure Route 53 Failover Record:
-- Primary apontando para workload principal
-- Secondary apontando para workload secundaria
-6. Crie Health Check para o endpoint primario.
-7. Simule falha (interromper endpoint primario) e valide failover.
-8. Documente RTO observado.
+1. Crie os recursos essenciais do servico em ambiente de teste.
+2. Conecte o servico a um componente de entrada e um de observabilidade.
+3. Execute uma carga simples para validar comportamento.
+4. Registre metrica, log e um ajuste de configuracao.
 
-## Validacao
+## Resultado esperado
 
-- Objetos replicam para segunda regiao
-- DNS muda para endpoint secundario apos falha
-- Aplicacao volta ao primario apos recuperacao
+- Fluxo funcionando de ponta a ponta.
+- Evidencia de monitoramento basico.
+- Entendimento de um trade-off arquitetural do modulo.
 
-## Limpeza
+## Extensao opcional
 
-- remover records/health checks Route 53
-- excluir recursos e buckets para evitar custo
+Teste uma variacao com foco em custo ou disponibilidade e compare os impactos.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Labs adicionais
 

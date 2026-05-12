@@ -1,28 +1,25 @@
-# Lab - KMS + Secrets Manager + IAM Role
+﻿# Lab Guiado
 
-## Objetivo
-Proteger credenciais de aplicacao usando segredo rotacionavel e acesso por role.
+Objetivo: montar uma arquitetura minima funcional para validar o fluxo principal do dominio.
 
 ## Passos
 
-1. Crie uma KMS customer-managed key para segredos.
-2. Crie um segredo no Secrets Manager (usuario/senha de teste) usando a chave.
-3. Crie role IAM para workload (EC2/Lambda) com permissao `secretsmanager:GetSecretValue` e `kms:Decrypt`.
-4. Associe a role ao recurso de compute.
-5. Leia o segredo via SDK/CLI sem credenciais estaticas.
-6. Ative rotacao automatica (quando aplicavel).
+1. Crie os recursos essenciais do servico em ambiente de teste.
+2. Conecte o servico a um componente de entrada e um de observabilidade.
+3. Execute uma carga simples para validar comportamento.
+4. Registre metrica, log e um ajuste de configuracao.
 
-## Validacao
+## Resultado esperado
 
-- workload le segredo com role
-- acesso negado para principal sem permissao
-- eventos de acesso aparecem no CloudTrail
+- Fluxo funcionando de ponta a ponta.
+- Evidencia de monitoramento basico.
+- Entendimento de um trade-off arquitetural do modulo.
 
-## Limpeza
+## Extensao opcional
 
-- remover segredo de laboratorio
-- remover role/policies e chave criada
+Teste uma variacao com foco em custo ou disponibilidade e compare os impactos.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Labs adicionais
 

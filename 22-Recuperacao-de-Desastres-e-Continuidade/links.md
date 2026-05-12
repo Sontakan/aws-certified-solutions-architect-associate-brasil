@@ -1,14 +1,20 @@
-# Links Oficiais - Recuperacao de Desastres e Continuidade
+﻿# Links Recomendados
 
-- AWS Disaster Recovery Overview: https://aws.amazon.com/disaster-recovery/
-- Choosing an AWS disaster recovery strategy: https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
-- AWS Elastic Disaster Recovery: https://docs.aws.amazon.com/drs/
-- AWS Backup: https://docs.aws.amazon.com/aws-backup/
-- Amazon Route 53 Health Checks and DNS Failover: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html
-- Amazon S3 Replication: https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html
-- Aurora Global Database: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html
-- DynamoDB Global Tables: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html
+## Documentacao AWS
 
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+- Pagina oficial do servico na documentacao oficial da AWS.
+- Guia de boas praticas arquiteturais relacionado.
+- FAQs e limites de servico para revisao tecnica.
+
+## Reforco de Estudo
+
+- Whitepaper relevante do dominio.
+- Workshops oficiais com laboratorios introdutorios.
+- Exam prep da AWS Skill Builder para o tema.
+
+## Como consumir
+
+- Leia primeiro a visao geral.
+- Depois aprofunde em limites e seguranca.
+- Finalize com um laboratorio curto de validacao.
 

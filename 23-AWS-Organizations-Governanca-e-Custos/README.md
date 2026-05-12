@@ -1,59 +1,41 @@
-# 23 AWS Organizations, Governanca e Custos
+﻿# AWS Organizations Governanca e Custos
 
-## Objetivos do modulo
+Este módulo apresenta os conceitos essenciais de **AWS Organizations Governanca e Custos** no contexto de arquitetura AWS para SAA-C03. O foco é apoiar decisões de design com clareza, priorizando disponibilidade, segurança, eficiência de custo e simplicidade operacional.
 
-- desenhar ambientes multi-account com seguranca e governanca central
-- aplicar SCPs, tagging e controle de acesso por Organizational Unit
-- dominar servicos de custo no contexto de arquitetura: Budgets, Cost Explorer, CUR, Savings Plans e RI
-- responder cenarios do SAA-C03 que pedem reducao de custo com menor overhead operacional
+## O que dominar neste módulo
 
-## Conceitos fundamentais
+- Papel do serviço na arquitetura de referência.
+- Decisões de projeto que aparecem com frequência em cenários de prova.
+- Integrações mais comuns com serviços adjacentes.
+- Limites práticos, riscos recorrentes e mitigação básica.
 
-No SAA-C03, governanca e custo aparecem junto com seguranca e operacao. A ideia central e estruturar contas para reduzir risco, melhorar visibilidade financeira e aplicar guardrails sem travar o time.
+## Intuição de Arquitetura
 
-## Arquitetura multi-account recomendada
+Ao modelar uma solução com AWS Organizations Governanca e Custos, avalie primeiro o requisito crítico do sistema: latência, resiliência, conformidade ou elasticidade. Em seguida, escolha o padrão mínimo que atende ao objetivo sem aumentar complexidade desnecessária. Em cenários de exame, respostas fortes costumam equilibrar três fatores: desacoplamento entre componentes, observabilidade para operação contínua e proteção de dados em repouso e em trânsito.
 
-- Management account apenas para governanca e billing
-- OUs separadas por ambiente e criticidade (Sandbox, Dev, Prod, Security)
-- Contas dedicadas para logs e seguranca
-- Acesso humano central por IAM Identity Center
+Também é importante diferenciar decisões de curto prazo (entrega rápida com baixa sobrecarga operacional) de decisões de escala (governança, automação e padronização). Para cargas variáveis, prefira mecanismos gerenciados e políticas automáticas de ajuste. Para cargas previsíveis, otimize capacidade e custos com estratégias de dimensionamento e armazenamento adequadas.
 
-## Servicos e praticas chave
+## Padrões que mais caem
 
-- AWS Organizations: hierarquia de contas e consolidated billing
-- SCP: define teto de permissoes por OU/conta
-- AWS Control Tower: baseline multi-account com guardrails
-- AWS Budgets: alertas proativos por limite de gasto ou uso
-- Cost Explorer: analise de tendencia e recomendacoes
-- Cost and Usage Report (CUR): base detalhada para chargeback/showback
-- Savings Plans e Reserved Instances: compromisso para reduzir custo de compute
-- Cost Allocation Tags: rastrear custo por time/produto/ambiente
+- Arquitetura altamente disponível com falha isolada por componente.
+- Camadas desacopladas para absorção de picos e retry controlado.
+- Segurança por menor privilégio e segmentação de acesso.
+- Observabilidade com métricas, logs e alarmes orientados a ação.
 
-## Dicas de exame
+## Roteiro de revisão rápida
 
-- SCP nao concede permissoes; apenas restringe.
-- "Least operational overhead" em multi-account aponta para Control Tower e Identity Center.
-- Para visibilidade granular de custo em escala, CUR + Athena e alternativa recorrente.
-- Para workloads estaveis, RI/Savings Plans costuma ser resposta de otimizacao.
-- Spot e melhor para cargas tolerantes a interrupcao.
-
-## Anti-padroes
-
-- usar conta unica para tudo
-- usar root user no dia a dia
-- sem padrao de tags obrigatorias
-- sem limites/alertas de custo por ambiente
-- sem segregacao de contas de log e seguranca
-
-## Links relacionados
-
-- [Cheatsheet](./cheatsheet.md)
-- [Casos de uso](./casos-de-uso.md)
-- [Questoes](./questoes.md)
-- [Flashcards](./flashcards.md)
-- [Lab](./lab.md)
-- [Links oficiais](./links.md)
+1. Leia o cheatsheet.md antes de resolver questões.
+2. Use flashcards.md para reforço de termos-chave.
+3. Execute o lab.md para fixar fluxo e integração.
+4. Retorne às questões e valide evolução no domínio.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Estudos complementares
+
+Se quiser reforcar base de servicos centrais e conceitos de cloud, consulte tambem a trilha Cloud Practitioner:
+https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
+
+Para explorar IA aplicada a cenarios AWS, a trilha AI Practitioner oferece um caminho complementar:
+https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
 

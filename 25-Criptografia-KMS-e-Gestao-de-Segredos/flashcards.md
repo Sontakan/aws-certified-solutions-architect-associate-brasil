@@ -1,35 +1,17 @@
-# Flashcards - Criptografia, KMS e Gestao de Segredos
+﻿# Cartoes de Revisao
 
-1. Servico para rotacao automatica de segredos?
-- Secrets Manager.
-
-2. Parametros de app com custo menor?
-- Parameter Store.
-
-3. Chave com controle total do cliente?
-- Customer-managed KMS key.
-
-4. Qual policy e obrigatoria no KMS?
-- Key policy.
-
-5. Criptografia em escala usa qual padrao?
-- Envelope encryption.
-
-6. Certificado CloudFront no ACM em qual regiao?
-- us-east-1.
-
-7. Melhor pratica para app acessar segredo?
-- IAM role, sem credencial hardcoded.
-
-8. Servico para HSM dedicado?
-- AWS CloudHSM.
-
-9. Auditoria de uso de chave?
-- CloudTrail.
-
-10. Quando usar Secrets Manager no exame?
-- Quando ha exigencia de rotacao automatica.
+- Pergunta: Qual objetivo principal deste servico na arquitetura?
+  Resposta: Resolver um problema especifico com alta integracao nativa na AWS.
+- Pergunta: Qual erro comum em prova?
+  Resposta: Ignorar requisito de disponibilidade e escolher solucao com ponto unico de falha.
+- Pergunta: Qual sinal de boa resposta arquitetural?
+  Resposta: Balancear resiliencia, seguranca e custo operacional.
+- Pergunta: O que revisar antes do simulado?
+  Resposta: Limites, padroes de integracao e controles de acesso.
+- Pergunta: Como melhorar retencao?
+  Resposta: Revisao curta e recorrente com questoes e lab rapido.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Proximo ciclo de memorizacao
 

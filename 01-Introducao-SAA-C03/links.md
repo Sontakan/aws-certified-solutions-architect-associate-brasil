@@ -1,35 +1,20 @@
-# Links — Introdução SAA-C03
+﻿# Links Recomendados
 
-## 📘 Documentação Oficial AWS
+## Documentacao AWS
 
-- [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
-- [Exam Guide SAA-C03](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
-- [AWS Skill Builder](https://skillbuilder.aws/)
-- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
-- [AWS Architecture Center](https://aws.amazon.com/architecture/)
+- Pagina oficial do servico na documentacao oficial da AWS.
+- Guia de boas praticas arquiteturais relacionado.
+- FAQs e limites de servico para revisao tecnica.
 
-## 📄 Whitepapers e Guias
+## Reforco de Estudo
 
-- [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html)
-- [AWS Cloud Adoption Framework](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-introduction/welcome.html)
-- [Architecting for the Cloud: AWS Best Practices](https://docs.aws.amazon.com/whitepapers/latest/architecting-for-the-cloud/architecting-for-the-cloud.html)
-- [Disaster Recovery of Workloads on AWS](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)
+- Whitepaper relevante do dominio.
+- Workshops oficiais com laboratorios introdutorios.
+- Exam prep da AWS Skill Builder para o tema.
 
-## 🎥 Recursos de Aprendizado
+## Como consumir
 
-- [AWS Training and Certification YouTube](https://www.youtube.com/@AWSTrainingCertification)
-- [AWS Events and Webinars](https://aws.amazon.com/events/)
-- [AWS re:Invent Video Catalog](https://www.youtube.com/@AWSEventsChannel)
-
-## 🔗 Navegação Interna
-
-- [README do módulo](./README.md)
-- [Questões](./questoes.md)
-- [Flashcards](./flashcards.md)
-- [Cheatsheet](./cheatsheet.md)
-- [Casos de uso](./casos-de-uso.md)
-- [Lab prático](./lab.md)
-
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+- Leia primeiro a visao geral.
+- Depois aprofunde em limites e seguranca.
+- Finalize com um laboratorio curto de validacao.
 

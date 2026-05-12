@@ -1,32 +1,25 @@
-# Cheatsheet - AWS Organizations, Governanca e Custos
+﻿# Guia Rapido
 
-## Mapa rapido
+## Essenciais
 
-| Necessidade | Servico/Padrao | Dica de prova |
-|---|---|---|
-| Guardrail de permissao em varias contas | SCP | Lembrar: nao concede, apenas restringe |
-| Provisionar landing zone padrao | Control Tower | Menor overhead para multi-account |
-| Acesso centralizado de usuarios | IAM Identity Center | Evita IAM users em cada conta |
-| Alertar estouro de orcamento | AWS Budgets | Alerta antes da fatura fechar |
-| Analise detalhada de gastos | CUR + Athena | Visao granular por servico/tag |
-| Reduzir custo de compute previsivel | Savings Plans / RI | Compromisso de uso reduz preco |
+- Requisito primeiro: defina prioridade (latencia, custo, resiliencia, seguranca).
+- Menor complexidade viavel: escolha o padrao mais simples que atende o cenario.
+- Observabilidade obrigatoria: metricas, logs e alarmes desde o inicio.
 
-## Otimizacao de custo
+## Checklist rapido
 
-- rightsizing de EC2 e RDS
-- desligamento de ambientes nao produtivos
-- classes de storage adequadas (S3 lifecycle)
-- usar Spot em workloads stateless
-- revisar transferencias entre AZ/regioes
+- Alta disponibilidade sem ponto unico de falha.
+- Controle de acesso por menor privilegio.
+- Criptografia em repouso e em transito quando aplicavel.
+- Mecanismo de escala ou absorcao de pico.
 
-## Frases gatilho
+## Armadilhas frequentes
 
-- "across multiple AWS accounts" => Organizations/Control Tower
-- "prevent specific actions" => SCP
-- "cost visibility by team" => Cost Allocation Tags + CUR
-- "predictable usage" => RI/Savings Plans
-- "variable workload" => Savings Plans ou on-demand + autoscaling
+- Escolher servico correto sem considerar operacao.
+- Otimizar custo e perder resiliencia critica.
+- Ignorar limites e cotas do servico.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Continue a revisao
 

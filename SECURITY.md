@@ -1,24 +1,23 @@
-# Política de Segurança
+﻿# Politica de Seguranca
 
-## Versões Suportadas
+## Versao suportada
 
-Este repositório não utiliza versionamento semântico nem releases numeradas. Todo o conteúdo é mantido na branch `main`. Utilize sempre o commit mais recente.
+A referencia oficial deste projeto e sempre a branch `main` mais recente.
 
-| Versão | Suportada |
-|--------|-----------|
-| `main` (última versão) | ✅ |
-| Forks ou cópias desatualizadas | ❌ |
-| Commits históricos | ❌ |
+## Como reportar vulnerabilidade
 
-Note: Se você estiver usando um fork ou uma cópia antiga deste repositório, sincronize com a branch `main` mais recente para receber atualizações de segurança.
+1. Nao abra issue publica para vulnerabilidade.
+2. Envie detalhes para `analyticsdev.thiago@gmail.com`.
+3. Inclua impacto, passos de reproducao e possivel mitigacao.
 
-## Relatando uma Vulnerabilidade
+## Janela de resposta
 
-Se você descobrir uma vulnerabilidade de segurança neste projeto, por favor relate-a para nós da seguinte forma:
+- Confirmacao de recebimento: ate 48 horas.
+- Retorno inicial com plano de tratamento: ate 7 dias.
 
-1. **Não** crie um issue público no GitHub para a vulnerabilidade.
-2. Envie um e-mail para **analyticsdev.thiago@gmail.com**
-3. Forneça informações detalhadas sobre a vulnerabilidade, incluindo passos para reproduzi-la.
-4. Reconheceremos o recebimento do seu relatório dentro de **48 horas** e forneceremos uma resposta mais detalhada dentro de **7 dias**, indicando nossos próximos passos.
-5. Manteremos você informado sobre nosso progresso durante todo o processo de correção da vulnerabilidade.
-6. Uma vez que a vulnerabilidade seja corrigida, divulgaremos publicamente e daremos crédito a você pela descoberta (se desejado).
+Obrigado por reportar de forma responsavel.
+
+---
+
+## Estudos complementares
+

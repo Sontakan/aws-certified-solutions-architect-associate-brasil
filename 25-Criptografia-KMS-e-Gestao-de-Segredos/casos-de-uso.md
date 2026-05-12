@@ -1,46 +1,18 @@
-# Casos de Uso - Criptografia, KMS e Gestao de Segredos
+﻿# Casos de Uso
 
-## Caso 1: Banco relacional com rotacao de senha
+## Cenario 1: Pico repentino
 
-Cenario:
-- aplicacao em ECS acessa Aurora
-- auditoria exige rotacao automatica
+Use componentes gerenciados e desacoplados para absorver variacao de carga com previsibilidade operacional.
 
-Arquitetura:
-- Secrets Manager com rotacao
-- task role do ECS para ler segredo
-- KMS customer-managed key para criptografia do segredo
+## Cenario 2: Requisito de conformidade
 
-## Caso 2: API publica com TLS gerenciado
+Aplique trilha de auditoria, controle de acesso granular e criptografia ponta a ponta.
 
-Cenario:
-- API Gateway + CloudFront
-- sem gerenciamento manual de certificados
+## Cenario 3: Otimizacao de custo
 
-Arquitetura:
-- ACM publico com renovacao automatica
-- certificado em us-east-1 para CloudFront
+Ajuste capacidade ao perfil de uso e prefira padroes elastico-gerenciados quando houver variacao.
 
-## Caso 3: Empresa com exigencia de chave sob controle estrito
+## Cenario 4: Evolucao incremental
 
-Cenario:
-- compliance exige segregacao de acesso a chaves
-
-Arquitetura:
-- customer-managed keys no KMS
-- key policy minima + grants para aplicacoes
-- trilha de auditoria via CloudTrail
-
-## Caso 4: Aplicacao legado com segredo em arquivo
-
-Cenario:
-- senha hardcoded no codigo
-
-Arquitetura:
-- migrar para Parameter Store/Secrets Manager
-- remover credencial do repositorio
-- uso de IAM role no runtime
-
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+Comece com arquitetura simples e adicione camadas somente quando houver gatilho tecnico claro.
 

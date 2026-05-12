@@ -1,15 +1,20 @@
-# Links Oficiais - AWS Organizations, Governanca e Custos
+﻿# Links Recomendados
 
-- AWS Organizations: https://docs.aws.amazon.com/organizations/
-- AWS Control Tower: https://docs.aws.amazon.com/controltower/
-- Service Control Policies: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html
-- IAM Identity Center: https://docs.aws.amazon.com/singlesignon/
-- AWS Budgets: https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
-- AWS Cost Explorer: https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html
-- Cost and Usage Report (CUR): https://docs.aws.amazon.com/cur/
-- Savings Plans: https://docs.aws.amazon.com/savingsplans/
-- Reserved Instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html
+## Documentacao AWS
 
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+- Pagina oficial do servico na documentacao oficial da AWS.
+- Guia de boas praticas arquiteturais relacionado.
+- FAQs e limites de servico para revisao tecnica.
+
+## Reforco de Estudo
+
+- Whitepaper relevante do dominio.
+- Workshops oficiais com laboratorios introdutorios.
+- Exam prep da AWS Skill Builder para o tema.
+
+## Como consumir
+
+- Leia primeiro a visao geral.
+- Depois aprofunde em limites e seguranca.
+- Finalize com um laboratorio curto de validacao.
 

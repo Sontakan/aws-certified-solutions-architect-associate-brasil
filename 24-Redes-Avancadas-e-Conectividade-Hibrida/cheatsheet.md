@@ -1,37 +1,25 @@
-# Cheatsheet - Redes Avancadas e Conectividade Hibrida
+﻿# Guia Rapido
 
-## Escolha rapida
+## Essenciais
 
-| Cenario | Solucao recomendada |
-|---|---|
-| 2 VPCs com troca simples de trafego | VPC Peering |
-| dezenas de VPCs e contas | Transit Gateway |
-| publicar servico interno para varias contas | PrivateLink |
-| conectar filial rapidamente | Site-to-Site VPN |
-| throughput alto e latencia previsivel | Direct Connect |
+- Requisito primeiro: defina prioridade (latencia, custo, resiliencia, seguranca).
+- Menor complexidade viavel: escolha o padrao mais simples que atende o cenario.
+- Observabilidade obrigatoria: metricas, logs e alarmes desde o inicio.
 
-## Regras importantes
+## Checklist rapido
 
-- VPC Peering: sem transitive routing
-- TGW: roteamento central com route tables separadas
-- PrivateLink: conecta consumidor ao endpoint de servico privado
-- DX: usar link redundante e VPN como contingencia
-- Resolver inbound/outbound endpoints: DNS hibrido
+- Alta disponibilidade sem ponto unico de falha.
+- Controle de acesso por menor privilegio.
+- Criptografia em repouso e em transito quando aplicavel.
+- Mecanismo de escala ou absorcao de pico.
 
-## Armadilhas de prova
+## Armadilhas frequentes
 
-- usar peering em malha grande (nao escala)
-- esquecer overlapping CIDR (bloqueia peering/TGW)
-- assumir que Security Group filtra trafego de internet de subnet publica sem rota correta
-- confundir NACL stateful (na verdade e stateless)
-
-## Frases gatilho
-
-- "multiple VPCs across accounts" => Transit Gateway
-- "privately access service" => PrivateLink
-- "consistent network performance" => Direct Connect
-- "encrypted connection over internet" => VPN
+- Escolher servico correto sem considerar operacao.
+- Otimizar custo e perder resiliencia critica.
+- Ignorar limites e cotas do servico.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Continue a revisao
 

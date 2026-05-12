@@ -1,53 +1,41 @@
-# 25 Criptografia, KMS e Gestao de Segredos
+﻿# Criptografia KMS e Gestao de Segredos
 
-## Objetivos do modulo
+Este módulo apresenta os conceitos essenciais de **Criptografia KMS e Gestao de Segredos** no contexto de arquitetura AWS para SAA-C03. O foco é apoiar decisões de design com clareza, priorizando disponibilidade, segurança, eficiência de custo e simplicidade operacional.
 
-- dominar criptografia em repouso e em transito no contexto SAA-C03
-- diferenciar AWS KMS, CloudHSM, Secrets Manager, Parameter Store e ACM
-- decidir entre chaves AWS-managed e customer-managed com base em compliance
-- aplicar padroes de seguranca com menor sobrecarga operacional
+## O que dominar neste módulo
 
-## Conceitos fundamentais
+- Papel do serviço na arquitetura de referência.
+- Decisões de projeto que aparecem com frequência em cenários de prova.
+- Integrações mais comuns com serviços adjacentes.
+- Limites práticos, riscos recorrentes e mitigação básica.
 
-A prova SAA-C03 cobra seguranca aplicada: nao basta saber o nome do servico, e preciso escolher a melhor combinacao de criptografia, controle de acesso e rotacao de segredos.
+## Intuição de Arquitetura
 
-## KMS na pratica
+Ao modelar uma solução com Criptografia KMS e Gestao de Segredos, avalie primeiro o requisito crítico do sistema: latência, resiliência, conformidade ou elasticidade. Em seguida, escolha o padrão mínimo que atende ao objetivo sem aumentar complexidade desnecessária. Em cenários de exame, respostas fortes costumam equilibrar três fatores: desacoplamento entre componentes, observabilidade para operação contínua e proteção de dados em repouso e em trânsito.
 
-- KMS gerencia chaves e operacoes criptograficas auditaveis.
-- Customer managed keys permitem controle de policy, rotacao e grants.
-- Key policy e obrigatoria para acesso correto.
-- Envelope encryption e padrao para dados em escala.
+Também é importante diferenciar decisões de curto prazo (entrega rápida com baixa sobrecarga operacional) de decisões de escala (governança, automação e padronização). Para cargas variáveis, prefira mecanismos gerenciados e políticas automáticas de ajuste. Para cargas previsíveis, otimize capacidade e custos com estratégias de dimensionamento e armazenamento adequadas.
 
-Fluxo resumido de envelope encryption:
-1. aplicacao pede data key ao KMS (GenerateDataKey)
-2. KMS retorna data key plaintext e cifrada
-3. aplicacao cifra os dados com a key plaintext
-4. armazena dados cifrados + data key cifrada
+## Padrões que mais caem
 
-## Segredos e certificados
+- Arquitetura altamente disponível com falha isolada por componente.
+- Camadas desacopladas para absorção de picos e retry controlado.
+- Segurança por menor privilégio e segmentação de acesso.
+- Observabilidade com métricas, logs e alarmes orientados a ação.
 
-- Secrets Manager: segredos com rotacao automatica (forte para credenciais de banco).
-- Parameter Store SecureString: configuracoes e segredos simples, custo menor.
-- ACM: certificados TLS para ALB, CloudFront e API Gateway.
-- ACM Private CA: emissao de certificados privados internos.
+## Roteiro de revisão rápida
 
-## Dicas de exame
-
-- se houver requisito de rotacao automatica de credencial, resposta tende a Secrets Manager.
-- se pede "full control over encryption keys", use customer managed KMS key.
-- se precisa HSM dedicado e controle criptografico especializado, considere CloudHSM.
-- para CloudFront com ACM, certificado publico deve estar em us-east-1.
-- criptografia sem controle de permissao nao resolve risco; IAM + key policy importam.
-
-## Links relacionados
-
-- [Cheatsheet](./cheatsheet.md)
-- [Casos de uso](./casos-de-uso.md)
-- [Questoes](./questoes.md)
-- [Flashcards](./flashcards.md)
-- [Lab](./lab.md)
-- [Links oficiais](./links.md)
+1. Leia o cheatsheet.md antes de resolver questões.
+2. Use flashcards.md para reforço de termos-chave.
+3. Execute o lab.md para fixar fluxo e integração.
+4. Retorne às questões e valide evolução no domínio.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Estudos complementares
+
+Para revisar fundamentos de cloud e servicos essenciais da AWS, vale combinar esta etapa com a trilha Cloud Practitioner:
+https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
+
+Como extensao opcional, a trilha AI Practitioner conecta arquitetura com IA generativa e Bedrock:
+https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
 

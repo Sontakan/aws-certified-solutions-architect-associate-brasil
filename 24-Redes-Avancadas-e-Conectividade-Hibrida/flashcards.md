@@ -1,35 +1,17 @@
-# Flashcards - Redes Avancadas e Conectividade Hibrida
+﻿# Cartoes de Revisao
 
-1. Peering e transitive?
-- Nao.
-
-2. Hub de roteamento para muitas VPCs?
-- Transit Gateway.
-
-3. Acesso privado a servico entre contas sem abrir toda rede?
-- PrivateLink.
-
-4. Conexao IPSec sobre internet?
-- Site-to-Site VPN.
-
-5. Link dedicado AWS-on-premises?
-- Direct Connect.
-
-6. Melhor para poucas VPCs e topologia simples?
-- VPC Peering.
-
-7. NACL e stateful?
-- Nao, e stateless.
-
-8. Security Group e stateful?
-- Sim.
-
-9. DNS hibrido para zona privada na AWS?
-- Route 53 Resolver endpoint.
-
-10. Backup comum para DX?
-- VPN.
+- Pergunta: Qual objetivo principal deste servico na arquitetura?
+  Resposta: Resolver um problema especifico com alta integracao nativa na AWS.
+- Pergunta: Qual erro comum em prova?
+  Resposta: Ignorar requisito de disponibilidade e escolher solucao com ponto unico de falha.
+- Pergunta: Qual sinal de boa resposta arquitetural?
+  Resposta: Balancear resiliencia, seguranca e custo operacional.
+- Pergunta: O que revisar antes do simulado?
+  Resposta: Limites, padroes de integracao e controles de acesso.
+- Pergunta: Como melhorar retencao?
+  Resposta: Revisao curta e recorrente com questoes e lab rapido.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Proximo ciclo de memorizacao
 

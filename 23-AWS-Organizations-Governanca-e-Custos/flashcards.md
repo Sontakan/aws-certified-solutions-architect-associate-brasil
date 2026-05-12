@@ -1,35 +1,17 @@
-# Flashcards - AWS Organizations, Governanca e Custos
+﻿# Cartoes de Revisao
 
-1. SCP concede permissao?
-- Nao, apenas restringe.
-
-2. Qual conta nao e afetada por SCP?
-- Management account.
-
-3. Servico para landing zone multi-account?
-- AWS Control Tower.
-
-4. Acesso humano central em varias contas?
-- IAM Identity Center.
-
-5. Relatorio detalhado de custo para consultas?
-- CUR.
-
-6. Alerta preventivo de custo?
-- AWS Budgets.
-
-7. Ferramenta de tendencia e recomendacao de custo?
-- Cost Explorer.
-
-8. Economia com compromisso de uso?
-- Savings Plans/RI.
-
-9. Melhor uso de Spot?
-- Cargas tolerantes a interrupcao.
-
-10. Base de chargeback?
-- Tags de alocacao + CUR.
+- Pergunta: Qual objetivo principal deste servico na arquitetura?
+  Resposta: Resolver um problema especifico com alta integracao nativa na AWS.
+- Pergunta: Qual erro comum em prova?
+  Resposta: Ignorar requisito de disponibilidade e escolher solucao com ponto unico de falha.
+- Pergunta: Qual sinal de boa resposta arquitetural?
+  Resposta: Balancear resiliencia, seguranca e custo operacional.
+- Pergunta: O que revisar antes do simulado?
+  Resposta: Limites, padroes de integracao e controles de acesso.
+- Pergunta: Como melhorar retencao?
+  Resposta: Revisao curta e recorrente com questoes e lab rapido.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Proximo ciclo de memorizacao
 

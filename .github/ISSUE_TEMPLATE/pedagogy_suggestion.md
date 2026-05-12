@@ -1,20 +1,25 @@
----
+﻿---
 name: Pedagogy suggestion
-about: Sugerir melhoria didática de explicação, diagrama, fluxo ou lab
+about: Sugerir melhoria didÃ¡tica de explicaÃ§Ã£o, diagrama, fluxo ou lab
 labels: pedagogy
 ---
 
-## Sugestão pedagógica
+## SugestÃ£o pedagÃ³gica
 Descreva a melhoria proposta de forma clara.
 
 ## Arquivos afetados
 Liste os links/paths dos arquivos relacionados.
 
 ## Problema atual para o estudante
-Explique por que o ponto atual pode gerar dúvida, confusão ou dificuldade.
+Explique por que o ponto atual pode gerar dÃºvida, confusÃ£o ou dificuldade.
 
 ## Proposta de melhoria
-Descreva como a explicação, estrutura, diagrama ou exercício pode ficar melhor.
+Descreva como a explicaÃ§Ã£o, estrutura, diagrama ou exercÃ­cio pode ficar melhor.
 
 ## Contexto adicional
-Inclua exemplos, referências e público-alvo (iniciante/intermediário/avançado).
+Inclua exemplos, referÃªncias e pÃºblico-alvo (iniciante/intermediÃ¡rio/avanÃ§ado).
+
+---
+
+## Continue estudando
+

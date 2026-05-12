@@ -1,51 +1,18 @@
-# Casos de Uso - AWS Organizations, Governanca e Custos
+﻿# Casos de Uso
 
-## Caso 1: Empresa em crescimento rapido
+## Cenario 1: Pico repentino
 
-Cenario:
-- 40 contas AWS em 6 meses
-- times independentes por produto
-- necessidade de guardrails comuns
+Use componentes gerenciados e desacoplados para absorver variacao de carga com previsibilidade operacional.
 
-Arquitetura:
-- AWS Control Tower para landing zone
-- OUs por ambiente (Sandbox, Dev, Prod)
-- SCP bloqueando desativacao de CloudTrail e uso fora de regioes permitidas
-- Identity Center para acesso federado
+## Cenario 2: Requisito de conformidade
 
-## Caso 2: FinOps com chargeback
+Aplique trilha de auditoria, controle de acesso granular e criptografia ponta a ponta.
 
-Cenario:
-- diretoria quer custo por produto e por squad
+## Cenario 3: Otimizacao de custo
 
-Arquitetura:
-- Tags obrigatorias (Owner, CostCenter, Product, Environment)
-- CUR no S3
-- Athena + QuickSight para dashboards de chargeback
-- Budgets por conta e por tag
+Ajuste capacidade ao perfil de uso e prefira padroes elastico-gerenciados quando houver variacao.
 
-## Caso 3: Reducao de custo compute
+## Cenario 4: Evolucao incremental
 
-Cenario:
-- gasto elevado em EC2 e Fargate
-
-Arquitetura:
-- Savings Plans para base estavel
-- Spot para batch e workers stateless
-- autoscaling com limites
-- rightsizing com Compute Optimizer
-
-## Caso 4: Governanca de seguranca
-
-Cenario:
-- auditoria exige trilhas imutaveis
-
-Arquitetura:
-- conta de log central
-- CloudTrail org trail
-- bucket de log com Object Lock
-- bloqueios SCP para impedir alteracao de trilha
-
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+Comece com arquitetura simples e adicione camadas somente quando houver gatilho tecnico claro.
 

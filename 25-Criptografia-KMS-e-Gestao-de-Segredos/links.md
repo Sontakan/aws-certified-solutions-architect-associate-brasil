@@ -1,14 +1,20 @@
-# Links Oficiais - Criptografia, KMS e Gestao de Segredos
+﻿# Links Recomendados
 
-- AWS KMS: https://docs.aws.amazon.com/kms/
-- KMS key policies: https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html
-- AWS Secrets Manager: https://docs.aws.amazon.com/secretsmanager/
-- AWS Systems Manager Parameter Store: https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html
-- AWS Certificate Manager: https://docs.aws.amazon.com/acm/
-- AWS CloudHSM: https://docs.aws.amazon.com/cloudhsm/
-- Encryption Best Practices: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/
-- AWS Security Blog: https://aws.amazon.com/blogs/security/
+## Documentacao AWS
 
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+- Pagina oficial do servico na documentacao oficial da AWS.
+- Guia de boas praticas arquiteturais relacionado.
+- FAQs e limites de servico para revisao tecnica.
+
+## Reforco de Estudo
+
+- Whitepaper relevante do dominio.
+- Workshops oficiais com laboratorios introdutorios.
+- Exam prep da AWS Skill Builder para o tema.
+
+## Como consumir
+
+- Leia primeiro a visao geral.
+- Depois aprofunde em limites e seguranca.
+- Finalize com um laboratorio curto de validacao.
 

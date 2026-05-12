@@ -1,29 +1,25 @@
-# Cheatsheet - Criptografia, KMS e Gestao de Segredos
+﻿# Guia Rapido
 
-## Mapa rapido
+## Essenciais
 
-| Necessidade | Melhor escolha | Observacao |
-|---|---|---|
-| Chave com controle de policy e auditoria | KMS customer-managed key | Mais controle para compliance |
-| Rotacao automatica de segredos | Secrets Manager | Integracao forte com RDS |
-| Parametros de app com baixo custo | Parameter Store | SecureString usa KMS |
-| Certificado TLS para ALB/CloudFront/API Gateway | ACM | Public cert gratuito |
-| Controle criptografico em HSM dedicado | CloudHSM | Maior complexidade operacional |
+- Requisito primeiro: defina prioridade (latencia, custo, resiliencia, seguranca).
+- Menor complexidade viavel: escolha o padrao mais simples que atende o cenario.
+- Observabilidade obrigatoria: metricas, logs e alarmes desde o inicio.
 
-## Regras de prova
+## Checklist rapido
 
-- key policy e essencial para permissao no KMS
-- explicit deny sempre prevalece
-- use IAM role para apps em vez de chaves estaticas
-- CloudFront + ACM publico => certificado em us-east-1
+- Alta disponibilidade sem ponto unico de falha.
+- Controle de acesso por menor privilegio.
+- Criptografia em repouso e em transito quando aplicavel.
+- Mecanismo de escala ou absorcao de pico.
 
-## Armadilhas
+## Armadilhas frequentes
 
-- confundir Secrets Manager com Parameter Store em cenario de rotacao automatica
-- esquecer permissao kms:Decrypt no principal consumidor
-- assumir que criptografar no servico dispensa gestao de acesso
-- ignorar custo de chamadas KMS em alto throughput
+- Escolher servico correto sem considerar operacao.
+- Otimizar custo e perder resiliencia critica.
+- Ignorar limites e cotas do servico.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Continue a revisao
 

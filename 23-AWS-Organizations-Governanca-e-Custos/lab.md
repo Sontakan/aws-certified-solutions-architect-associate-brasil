@@ -1,30 +1,25 @@
-# Lab - Governanca Basica e Controle de Custos
+﻿# Lab Guiado
 
-## Objetivo
-Configurar uma estrutura inicial de governanca e monitoramento financeiro.
+Objetivo: montar uma arquitetura minima funcional para validar o fluxo principal do dominio.
 
 ## Passos
 
-1. Crie uma Organizacao (se ainda nao existir).
-2. Crie OUs: Sandbox, Dev e Prod.
-3. Mova contas para OUs corretas.
-4. Crie SCP de restricao regional (exemplo: apenas us-east-1 e sa-east-1).
-5. Ative Cost Allocation Tags (Environment, CostCenter, Owner).
-6. Crie AWS Budget mensal por conta com alerta por email/SNS.
-7. Abra Cost Explorer e valide dados por servico e tag.
+1. Crie os recursos essenciais do servico em ambiente de teste.
+2. Conecte o servico a um componente de entrada e um de observabilidade.
+3. Execute uma carga simples para validar comportamento.
+4. Registre metrica, log e um ajuste de configuracao.
 
-## Validacao
+## Resultado esperado
 
-- Contas nas OUs corretas
-- SCP aplicada e validada
-- Alertas de budget funcionando
-- Custos visiveis por tag no explorer
+- Fluxo funcionando de ponta a ponta.
+- Evidencia de monitoramento basico.
+- Entendimento de um trade-off arquitetural do modulo.
 
-## Limpeza
+## Extensao opcional
 
-- remover budgets de teste
-- desanexar SCP de laboratorio
+Teste uma variacao com foco em custo ou disponibilidade e compare os impactos.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Labs adicionais
 

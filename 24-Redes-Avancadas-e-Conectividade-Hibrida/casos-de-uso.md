@@ -1,46 +1,18 @@
-# Casos de Uso - Redes Avancadas e Conectividade Hibrida
+﻿# Casos de Uso
 
-## Caso 1: Grupo empresarial multi-conta
+## Cenario 1: Pico repentino
 
-Cenario:
-- 50 VPCs em varias contas
-- necessidade de comunicacao controlada
+Use componentes gerenciados e desacoplados para absorver variacao de carga com previsibilidade operacional.
 
-Arquitetura:
-- Transit Gateway central
-- route tables separadas por dominio
-- inspeção de trafego em VPC de seguranca
+## Cenario 2: Requisito de conformidade
 
-## Caso 2: SaaS privado para clientes enterprise
+Aplique trilha de auditoria, controle de acesso granular e criptografia ponta a ponta.
 
-Cenario:
-- clientes em contas AWS diferentes
-- sem exposicao publica
+## Cenario 3: Otimizacao de custo
 
-Arquitetura:
-- NLB + Endpoint Service
-- consumo via Interface VPC Endpoint (PrivateLink)
+Ajuste capacidade ao perfil de uso e prefira padroes elastico-gerenciados quando houver variacao.
 
-## Caso 3: Datacenter para AWS com baixa variacao de latencia
+## Cenario 4: Evolucao incremental
 
-Cenario:
-- cargas sensiveis a variacao de rede
-- alto volume de dados
-
-Arquitetura:
-- AWS Direct Connect principal
-- Site-to-Site VPN como backup
-- BGP para failover
-
-## Caso 4: Integracao DNS hibrida
-
-Cenario:
-- aplicacoes on-premises precisam resolver zonas privadas na AWS
-
-Arquitetura:
-- Route 53 Resolver inbound endpoint
-- conditional forwarding no DNS on-premises
-
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+Comece com arquitetura simples e adicione camadas somente quando houver gatilho tecnico claro.
 

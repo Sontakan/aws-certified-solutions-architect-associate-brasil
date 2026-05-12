@@ -1,51 +1,38 @@
-# Como contribuir
+﻿# Como Contribuir
 
-Obrigado por querer contribuir com este repositório.
-O objetivo aqui é manter um material claro, técnico e atualizado para preparação no exame AWS SAA-C03.
+Obrigado por contribuir com este repositorio da comunidade AWS Brasil.
 
-## Como abrir issues
-Abra uma issue quando identificar:
-- bugs técnicos, comandos incorretos ou inconsistências no conteúdo
-- mudanças relevantes em serviços AWS que impactem explicações, labs ou questões
-- melhorias pedagógicas (didática, exemplos, diagramas, sequência de estudo)
+## Formas de contribuir
 
-Ao abrir a issue, inclua:
-- descrição clara do problema ou sugestão
-- links para arquivos afetados
-- contexto técnico (documentação oficial AWS, release notes, comportamento observado)
+- Corrigir erros tecnicos ou de escrita.
+- Melhorar clareza de explicacoes e materiais de revisao.
+- Sugerir labs curtos e casos de uso relevantes para SAA-C03.
+- Atualizar links oficiais da AWS quando necessario.
 
-Use os templates em .github/ISSUE_TEMPLATE para facilitar a triagem.
+## Fluxo recomendado
 
-## Como propor novos labs ou questões
-Para sugerir conteúdo novo:
-- explique o objetivo de aprendizado
-- indique pré-requisitos
-- descreva o cenário arquitetural
-- aponte cuidados de custo e teardown
-- informe o nível de dificuldade (iniciante, intermediário, avançado)
+1. Abra uma issue com contexto claro.
+2. Crie uma branch com nome objetivo.
+3. Faça alteracoes pequenas e focadas.
+4. Abra pull request com resumo, motivacao e arquivos alterados.
 
-Para questões de prática, inclua:
-- enunciado
-- 4-5 alternativas
-- resposta correta
-- justificativa curta das alternativas incorretas
+## Padrao editorial
 
-## Fluxo básico de contribuição (fork e pull request)
-1. Faça um fork do repositório.
-2. Crie uma branch com nome descritivo.
-   Exemplo: feat/atualiza-route53 ou fix/correcao-questao-s3
-3. Faça mudanças pequenas e focadas.
-4. Revise links e consistência de Markdown.
-5. Abra um pull request com:
-   - resumo do que mudou
-   - motivo da mudança
-   - links de issues relacionadas
-   - referência oficial da AWS quando aplicável
+- Conteudo publico em PT-BR.
+- Objetividade, precisao tecnica e foco arquitetural.
+- Evitar textos longos e redundantes.
 
-## Boas práticas
-- Mantenha o texto em PT-BR.
-- Preserve precisão técnica e contexto de prova.
-- Prefira clareza e objetividade.
-- Evite mudanças grandes sem contexto.
+## Checklist antes do PR
 
-Contribuições são muito bem-vindas. Obrigado por ajudar a melhorar este material.
+- Markdown legivel e consistente.
+- Links funcionando.
+- Terminologia AWS coerente entre modulos.
+
+---
+
+## Referencias de contexto
+
+Para manter consistencia entre trilhas da comunidade:
+- Fundamentos AWS: https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
+- IA aplicada na AWS: https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
+

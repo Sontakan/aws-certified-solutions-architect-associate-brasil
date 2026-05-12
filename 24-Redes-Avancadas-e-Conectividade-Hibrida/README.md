@@ -1,50 +1,41 @@
-# 24 Redes Avancadas e Conectividade Hibrida
+﻿# Redes Avancadas e Conectividade Hibrida
 
-## Objetivos do modulo
+Este módulo apresenta os conceitos essenciais de **Redes Avancadas e Conectividade Hibrida** no contexto de arquitetura AWS para SAA-C03. O foco é apoiar decisões de design com clareza, priorizando disponibilidade, segurança, eficiência de custo e simplicidade operacional.
 
-- dominar conectividade entre VPCs, contas e datacenter on-premises
-- diferenciar VPC Peering, Transit Gateway, PrivateLink, VPN e Direct Connect
-- desenhar redes com resiliencia, seguranca e baixa latencia
-- resolver questoes de prova com foco em roteamento, isolamento e custo de transferencia
+## O que dominar neste módulo
 
-## Conceitos fundamentais
+- Papel do serviço na arquitetura de referência.
+- Decisões de projeto que aparecem com frequência em cenários de prova.
+- Integrações mais comuns com serviços adjacentes.
+- Limites práticos, riscos recorrentes e mitigação básica.
 
-No SAA-C03, redes avancadas aparecem quando o cenario envolve multiplas VPCs, multiplas contas, conectividade hibrida e servicos privados.
+## Intuição de Arquitetura
 
-## Componentes chave
+Ao modelar uma solução com Redes Avancadas e Conectividade Hibrida, avalie primeiro o requisito crítico do sistema: latência, resiliência, conformidade ou elasticidade. Em seguida, escolha o padrão mínimo que atende ao objetivo sem aumentar complexidade desnecessária. Em cenários de exame, respostas fortes costumam equilibrar três fatores: desacoplamento entre componentes, observabilidade para operação contínua e proteção de dados em repouso e em trânsito.
 
-- VPC Peering: conecta duas VPCs diretamente; nao suporta transitive routing.
-- AWS Transit Gateway (TGW): hub-and-spoke para muitas VPCs e VPNs.
-- AWS PrivateLink: expor/consumir servico privado sem peering completo.
-- Site-to-Site VPN: tunel IPSec pela internet.
-- AWS Direct Connect (DX): link dedicado de baixa variabilidade para on-premises.
-- Route 53 Resolver endpoints: DNS hibrido entre AWS e on-premises.
+Também é importante diferenciar decisões de curto prazo (entrega rápida com baixa sobrecarga operacional) de decisões de escala (governança, automação e padronização). Para cargas variáveis, prefira mecanismos gerenciados e políticas automáticas de ajuste. Para cargas previsíveis, otimize capacidade e custos com estratégias de dimensionamento e armazenamento adequadas.
 
-## Quando usar cada um
+## Padrões que mais caem
 
-- poucas VPCs e topologia simples: VPC Peering
-- muitas VPCs/contas com roteamento central: TGW
-- publicar servico interno para outras contas com menor superficie: PrivateLink
-- conectividade rapida sem circuito dedicado: VPN
-- conectividade estavel de alto throughput: Direct Connect (com VPN de backup)
+- Arquitetura altamente disponível com falha isolada por componente.
+- Camadas desacopladas para absorção de picos e retry controlado.
+- Segurança por menor privilégio e segmentação de acesso.
+- Observabilidade com métricas, logs e alarmes orientados a ação.
 
-## Dicas de exame
+## Roteiro de revisão rápida
 
-- peering nao e transitive; TGW resolve isso.
-- se o enunciado pede acesso a servico privado sem abrir CIDR completo, pense em PrivateLink.
-- DX costuma aparecer com requisito de latencia mais previsivel e trafego alto.
-- para alta disponibilidade hibrida, combine DX + VPN backup.
-- Security Group e stateful; NACL e stateless (armadilha recorrente).
-
-## Links relacionados
-
-- [Cheatsheet](./cheatsheet.md)
-- [Casos de uso](./casos-de-uso.md)
-- [Questoes](./questoes.md)
-- [Flashcards](./flashcards.md)
-- [Lab](./lab.md)
-- [Links oficiais](./links.md)
+1. Leia o cheatsheet.md antes de resolver questões.
+2. Use flashcards.md para reforço de termos-chave.
+3. Execute o lab.md para fixar fluxo e integração.
+4. Retorne às questões e valide evolução no domínio.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Estudos complementares
+
+Uma revisao rapida de fundamentos AWS pode ser feita em paralelo pela trilha Cloud Practitioner:
+https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
+
+Estudos complementares de IA na AWS podem ser aprofundados na trilha AI Practitioner:
+https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
 

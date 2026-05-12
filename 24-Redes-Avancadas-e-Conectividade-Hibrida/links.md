@@ -1,13 +1,20 @@
-# Links Oficiais - Redes Avancadas e Conectividade Hibrida
+﻿# Links Recomendados
 
-- Amazon VPC Peering: https://docs.aws.amazon.com/vpc/latest/peering/
-- AWS Transit Gateway: https://docs.aws.amazon.com/vpc/latest/tgw/
-- AWS PrivateLink: https://docs.aws.amazon.com/vpc/latest/privatelink/
-- AWS Site-to-Site VPN: https://docs.aws.amazon.com/vpn/latest/s2svpn/
-- AWS Direct Connect: https://docs.aws.amazon.com/directconnect/
-- Route 53 Resolver: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html
-- AWS Networking and Content Delivery: https://aws.amazon.com/products/networking/
+## Documentacao AWS
 
----
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+- Pagina oficial do servico na documentacao oficial da AWS.
+- Guia de boas praticas arquiteturais relacionado.
+- FAQs e limites de servico para revisao tecnica.
+
+## Reforco de Estudo
+
+- Whitepaper relevante do dominio.
+- Workshops oficiais com laboratorios introdutorios.
+- Exam prep da AWS Skill Builder para o tema.
+
+## Como consumir
+
+- Leia primeiro a visao geral.
+- Depois aprofunde em limites e seguranca.
+- Finalize com um laboratorio curto de validacao.
 

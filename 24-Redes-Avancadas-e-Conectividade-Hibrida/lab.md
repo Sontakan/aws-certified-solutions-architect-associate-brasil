@@ -1,29 +1,25 @@
-# Lab - TGW + VPN (conceitual guiado)
+﻿# Lab Guiado
 
-## Objetivo
-Montar conectividade centralizada entre VPCs e preparar conectividade hibrida.
+Objetivo: montar uma arquitetura minima funcional para validar o fluxo principal do dominio.
 
 ## Passos
 
-1. Crie duas VPCs (App e Shared).
-2. Crie um Transit Gateway.
-3. Anexe as duas VPCs ao TGW.
-4. Ajuste route tables das subnets para trafego inter-VPC via TGW.
-5. Valide comunicacao privada entre instancias.
-6. (Opcional) Crie VPN connection simulada com Customer Gateway para estudo de parametros.
-7. Revise metricas e logs de conectividade.
+1. Crie os recursos essenciais do servico em ambiente de teste.
+2. Conecte o servico a um componente de entrada e um de observabilidade.
+3. Execute uma carga simples para validar comportamento.
+4. Registre metrica, log e um ajuste de configuracao.
 
-## Validacao
+## Resultado esperado
 
-- comunicacao entre VPCs via rotas do TGW
-- isolamento por route tables quando necessario
-- entendimento do fluxo de failover em VPN
+- Fluxo funcionando de ponta a ponta.
+- Evidencia de monitoramento basico.
+- Entendimento de um trade-off arquitetural do modulo.
 
-## Limpeza
+## Extensao opcional
 
-- remover attachments e TGW
-- remover VPCs e recursos auxiliares
+Teste uma variacao com foco em custo ou disponibilidade e compare os impactos.
 
 ---
-_Credito autoral: Thiago Cardoso - [LinkedIn](https://www.linkedin.com/in/analyticsthiagocardoso)_
+
+## Labs adicionais
 
