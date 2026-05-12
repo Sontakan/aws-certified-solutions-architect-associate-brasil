@@ -9,12 +9,18 @@
 
 <h1 align="center">AWS Solutions Architect Associate (SAA-C03)</h1>
 
-<p align="center">Arquitetura AWS, escalabilidade e preparação real para certificação.</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil?style=for-the-badge&label=Stars&color=2563eb&labelColor=374151" />
+  <img src="https://img.shields.io/github/forks/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil?style=for-the-badge&label=Forks&color=2563eb&labelColor=374151" />
+  <img src="https://img.shields.io/github/license/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil?style=for-the-badge&label=License&color=0f766e&labelColor=374151" />
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/conte%C3%BAdo-PT--BR-0f766e?style=flat-square" alt="Conteúdo PT-BR" />
-  <img src="https://img.shields.io/badge/open%20source-sim-2563eb?style=flat-square" alt="Open source" />
-  <img src="https://img.shields.io/badge/uso-educacional-f59e0b?style=flat-square" alt="Educacional" />
+  <img src="https://img.shields.io/badge/CONTEÚDO-PT--BR-0284c7?style=for-the-badge&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/OPEN-SOURCE-2563eb?style=for-the-badge&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/USO-EDUCACIONAL-1d4ed8?style=for-the-badge&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/CERTIFICATION-SAA--C03-1e40af?style=for-the-badge&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/CLOUD-JOURNEY-0f766e?style=for-the-badge&labelColor=0f172a" />
 </p>
 
 <p align="center">
