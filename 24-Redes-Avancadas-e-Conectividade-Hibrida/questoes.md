@@ -1,108 +1,113 @@
 ﻿# Questoes de Revisao
 
-## Questão 1
+## QuestÃ£o 1
 
-Uma aplicacao sofre picos repentinos de requisicoes e precisa manter tempo de resposta estavel sem aumentar operacao manual. Qual abordagem e mais adequada?
+Um cenario exige decisao correta em Conectividade Hibrida. Qual abordagem e mais aderente?
 
-A) Escalar verticalmente uma instancia unica em horarios fixos.
-B) Usar servicos gerenciados com escala automatica orientada por metrica.
-C) Criar script manual de aumento de capacidade durante incidente.
-D) Migrar toda carga para instancia maior e manter fixa.
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-✅ **Resposta correta:** B
-
-**Explicação:**
-Escala automatica em servicos gerenciados responde variacao real de demanda e reduz intervencao operacional.
-
-**Por que a alternativa A está errada:**
-Escala vertical fixa nao acompanha variacao imprevisivel e cria risco de saturacao.
-
-</details>
-## Questão 2
-
-Um requisito exige reduzir impacto de falha de um componente sem perder mensagens. Qual padrao e mais indicado?
-
-A) Processamento sincrono direto entre todos os servicos.
-B) Banco relacional unico como fila de trabalho.
-C) Camada de mensageria com retentativa e desacoplamento.
-D) Retry no cliente sem persistencia intermediaria.
+A) Aplicar solucao generica sem considerar Direct Connect.
+B) Usar Direct Connect com configuracao orientada ao requisito e operacao enxuta.
+C) Adicionar componentes sem necessidade do enunciado.
+D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** C
+âœ… **Resposta correta:** B
 
-**Explicação:**
-Fila desacopla produtor e consumidor, preserva mensagens e permite retry controlado.
+**ExplicaÃ§Ã£o:**
+A alternativa B cobre o objetivo tecnico de conectividade hibrida com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa D está errada:**
-Retry no cliente nao garante durabilidade em falha do produtor ou da rede.
+**Por que a alternativa A estÃ¡ errada:**
+Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
-## Questão 3
 
-O enunciado destaca conformidade e protecao de dados sensiveis. Qual combinacao e mais alinhada?
+## QuestÃ£o 2
 
-A) Credenciais em texto no codigo e acesso amplo para facilitar deploy.
-B) Controle por menor privilegio, criptografia e trilha de auditoria.
-C) Ambiente sem logs para reduzir custo.
-D) Compartilhar chave entre equipes sem rotacao.
+Qual escolha reduz risco operacional neste dominio?
+
+A) Resolver tudo manualmente durante incidente.
+B) Combinar VPN com observabilidade e automacao.
+C) Adicionar componentes sem necessidade do enunciado.
+D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** B
+âœ… **Resposta correta:** B
 
-**Explicação:**
-Seguranca robusta no exame combina identidade, criptografia e auditabilidade.
+**ExplicaÃ§Ã£o:**
+A alternativa B cobre o objetivo tecnico de conectividade hibrida com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa C está errada:**
-Ausencia de logs compromete governanca, rastreabilidade e investigacao.
+**Por que a alternativa A estÃ¡ errada:**
+Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
-## Questão 4
 
-Uma arquitetura precisa reduzir custo sem degradar experiencia do usuario. Qual decisao e mais consistente?
+## QuestÃ£o 3
 
-A) Escolher sempre classe de armazenamento mais barata.
-B) Ajustar servico ao padrao real de acesso e retenção.
-C) Desligar monitoramento para economizar.
-D) Concentrar tudo em um unico componente para simplificar.
+Para manter custo sob controle sem perder qualidade tecnica, o que fazer?
+
+A) Escolher sempre a opcao mais barata sem validar requisito.
+B) Dimensionar com base no uso real e aproveitar Transit Gateway quando fizer sentido.
+C) Adicionar componentes sem necessidade do enunciado.
+D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** B
+âœ… **Resposta correta:** B
 
-**Explicação:**
-Otimizacao de custo depende de perfil de uso, latencia esperada e frequencia de acesso.
+**ExplicaÃ§Ã£o:**
+A alternativa B cobre o objetivo tecnico de conectividade hibrida com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A está errada:**
-Classe mais barata pode aumentar latencia de recuperacao e quebrar requisito funcional.
+**Por que a alternativa A estÃ¡ errada:**
+Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
-## Questão 5
 
-Duas opcoes atendem funcionalmente o cenario. Como escolher a melhor no SAA-C03?
+## QuestÃ£o 4
 
-A) Preferir a alternativa com mais servicos para mostrar robustez.
-B) Escolher a opcao com menor numero de recursos, sem avaliar risco.
-C) Comparar trade-offs de operacao, resiliencia e custo total.
-D) Selecionar a tecnologia mais nova da AWS por padrao.
+Qual alternativa tende a ser incorreta na prova de 
+
+A) A que atende requisito dominante com menor complexidade.
+B) A que ignora sinais de BGP e dependencias da arquitetura.
+C) Adicionar componentes sem necessidade do enunciado.
+D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** C
+âœ… **Resposta correta:** B
 
-**Explicação:**
-O exame premia equilibrio tecnico e clareza de trade-off, nao volume de componentes.
+**ExplicaÃ§Ã£o:**
+A alternativa B cobre o objetivo tecnico de conectividade hibrida com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa D está errada:**
-Novidade tecnologica nao substitui aderencia ao requisito de negocio.
+**Por que a alternativa A estÃ¡ errada:**
+Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
+
+## QuestÃ£o 5
+
+Qual revisao aumenta acerto neste modulo?
+
+A) Rever apenas definicoes sem pratica de cenario.
+B) Treinar questoes focadas em BGP e PrivateLink com explicacao de trade-offs.
+C) Adicionar componentes sem necessidade do enunciado.
+D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+âœ… **Resposta correta:** B
+
+**ExplicaÃ§Ã£o:**
+A alternativa B cobre o objetivo tecnico de conectividade hibrida com melhor equilibrio entre requisito, risco e operacao.
+
+**Por que a alternativa A estÃ¡ errada:**
+Ela nao atende o requisito principal com a mesma consistencia arquitetural.
+
+</details>
+
 

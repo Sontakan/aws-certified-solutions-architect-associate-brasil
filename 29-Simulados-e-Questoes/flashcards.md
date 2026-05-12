@@ -1,172 +1,99 @@
 ﻿# Cartoes de Revisao
 
-### Card 01
+## Card 01
 
-**Pergunta:** Qual e o primeiro filtro para escolher servicos em um cenario SAA-C03?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
-
-</details>
-
-### Card 02
-
-**Pergunta:** O que caracteriza uma boa alternativa de prova em arquitetura AWS?
+**Pergunta:** Qual e o foco central deste modulo?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Dominar decisoes de Simulados orientadas por cenarios da prova SAA-C03.
 
 </details>
 
-### Card 03
+## Card 02
 
-**Pergunta:** Quando desconfiar de uma alternativa aparentemente completa demais?
+**Pergunta:** Qual erro recorrente neste tema?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Aplicar resposta generica sem validar sinais especificos de simulados no enunciado.
 
 </details>
 
-### Card 04
+## Card 03
 
-**Pergunta:** Qual sinal indica necessidade de desacoplamento?
+**Pergunta:** Como identificar a melhor alternativa?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Priorizar requisito dominante e servicos que cobrem gestao de tempo e caderno de erros com menor operacao.
 
 </details>
 
-### Card 05
+## Card 04
 
-**Pergunta:** Em seguranca, qual erro recorrente o exame cobra?
+**Pergunta:** Qual trade-off costuma aparecer?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Equilibrar gestao de tempo com custo, desempenho e simplicidade operacional.
 
 </details>
 
-### Card 06
+## Card 05
 
-**Pergunta:** Como interpretar exigencia de “baixo esforco operacional” no enunciado?
+**Pergunta:** Que sinal de arquitetura madura aparece em questoes?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Uso intencional de caderno de erros com observabilidade para reduzir risco operacional.
 
 </details>
 
-### Card 07
+## Card 06
 
-**Pergunta:** Como diferenciar alta disponibilidade de recuperacao de desastre?
+**Pergunta:** Como evitar armadilha de overengineering?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** A
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Evitar componentes extras quando eliminacao ou acerto por dominio ja resolve o requisito.
 
 </details>
 
-### Card 08
+## Card 07
 
-**Pergunta:** Qual tecnica ajuda a eliminar opcoes erradas mais rapido?
+**Pergunta:** Qual ponto revisar antes do simulado?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Diferencas praticas entre acerto por dominio e reta final.
 
 </details>
 
-### Card 09
+## Card 08
 
-**Pergunta:** Por que observabilidade aparece em varios dominios do exame?
+**Pergunta:** Qual fechamento eficiente de revisao?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
+**Resposta:**
+Converter erros deste modulo em regras objetivas de decisao sobre simulados.
 
 </details>
 
-### Card 10
-
-**Pergunta:** Qual e um bom fechamento de revisao apos este modulo?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-✅ **Resposta correta:** X
-
-**Explicação:**
-A alternativa correta atende ao requisito principal sem adicionar complexidade desnecessária.
-
-**Por que a alternativa Y está errada:**
-Ela entra em conflito com um requisito explícito do cenário.
-
-</details>
 

@@ -1,122 +1,99 @@
 ﻿# Cartoes de Revisao
 
-### Card 01
+## Card 01
 
-**Pergunta:** Qual e o primeiro filtro para escolher servicos em um cenario SAA-C03?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-**Resposta:**
-Identificar o requisito dominante do enunciado (resiliencia, desempenho, seguranca ou custo). A escolha do servico deve responder a esse eixo antes dos demais.
-
-</details>
-
-### Card 02
-
-**Pergunta:** O que caracteriza uma boa alternativa de prova em arquitetura AWS?
+**Pergunta:** Qual e o foco central deste modulo?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Solucao gerenciada, com menor complexidade operacional, que atende requisito tecnico e reduz risco de falha.
+Dominar decisoes de ML e IA orientadas por cenarios da prova SAA-C03.
 
 </details>
 
-### Card 03
+## Card 02
 
-**Pergunta:** Quando desconfiar de uma alternativa aparentemente completa demais?
+**Pergunta:** Qual erro recorrente neste tema?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Quando ela adiciona muitos componentes sem necessidade do cenario. Em prova, excesso de arquitetura costuma indicar custo e operacao desnecessarios.
+Aplicar resposta generica sem validar sinais especificos de ml e ia no enunciado.
 
 </details>
 
-### Card 04
+## Card 03
 
-**Pergunta:** Qual sinal indica necessidade de desacoplamento?
+**Pergunta:** Como identificar a melhor alternativa?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Pico imprevisivel, processamento assincrono ou dependencia forte entre componentes produtores e consumidores.
+Priorizar requisito dominante e servicos que cobrem SageMaker e inferencia com menor operacao.
 
 </details>
 
-### Card 05
+## Card 04
 
-**Pergunta:** Em seguranca, qual erro recorrente o exame cobra?
+**Pergunta:** Qual trade-off costuma aparecer?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Usar permissao ampla por conveniencia e nao aplicar menor privilegio com escopo especifico por funcao.
+Equilibrar SageMaker com custo, desempenho e simplicidade operacional.
 
 </details>
 
-### Card 06
+## Card 05
 
-**Pergunta:** Como interpretar exigencia de “baixo esforco operacional” no enunciado?
+**Pergunta:** Que sinal de arquitetura madura aparece em questoes?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Priorizar servicos totalmente gerenciados e automacao nativa, evitando manutencao manual de infraestrutura.
+Uso intencional de inferencia com observabilidade para reduzir risco operacional.
 
 </details>
 
-### Card 07
+## Card 06
 
-**Pergunta:** Como diferenciar alta disponibilidade de recuperacao de desastre?
+**Pergunta:** Como evitar armadilha de overengineering?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Alta disponibilidade trata continuidade local/zonal com failover rapido; DR trata retomada apos eventos de maior impacto, incluindo regiao.
+Evitar componentes extras quando drift ou modelo pre-treinado ja resolve o requisito.
 
 </details>
 
-### Card 08
+## Card 07
 
-**Pergunta:** Qual tecnica ajuda a eliminar opcoes erradas mais rapido?
+**Pergunta:** Qual ponto revisar antes do simulado?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Verificar incompatibilidade direta com requisito: protocolo, latencia, consistencia, custo alvo ou restricao de seguranca.
+Diferencas praticas entre latencia e custo.
 
 </details>
 
-### Card 09
+## Card 08
 
-**Pergunta:** Por que observabilidade aparece em varios dominios do exame?
+**Pergunta:** Qual fechamento eficiente de revisao?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Porque operacao confiavel depende de metricas, logs e alarmes para detectar degradacao e agir antes de indisponibilidade ampla.
+Converter erros deste modulo em regras objetivas de decisao sobre ml e ia.
 
 </details>
 
-### Card 10
-
-**Pergunta:** Qual e um bom fechamento de revisao apos este modulo?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-**Resposta:**
-Resolver questoes em tempo controlado e registrar no caderno de erros o motivo da escolha incorreta e a regra de decisao correta.
-
-</details>
 

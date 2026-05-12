@@ -2,27 +2,29 @@
 
 ## Tabela de decisao
 
-| Sinal do enunciado | Quando usar | Quando evitar | Armadilha de prova |
+| Sinal do enunciado | Melhor escolha | Evite | Armadilha comum |
 |---|---|---|---|
-| Baixa operacao manual | Servico gerenciado com automacao nativa | Solucao autogerenciada sem necessidade | Confundir controle total com melhor custo total |
-| Pico imprevisivel | Escala horizontal e desacoplamento | Capacidade fixa e ajuste manual | Dimensionar para media e falhar no pico |
-| Requisito de seguranca forte | Menor privilegio + criptografia + auditoria | Permissao ampla por conveniencia | Achar que criptografia sozinha resolve governanca |
-| Custo como restricao explicita | Escolha por perfil de consumo e acesso | Classe unica para todo dado | Reduzir custo sem validar impacto funcional |
+| “Acesso minimo necessario” | IAM policy granular + role | User com permissao ampla | Confundir agilidade com permissao total |
+| “Pico imprevisivel” | ASG + ALB + desacoplamento | Instancia unica vertical | Dimensionar para media e colapsar no pico |
+| “Sem internet publica” | VPC Endpoint/PrivateLink | NAT para trafego interno AWS | Pagar mais e ampliar superficie de risco |
+| “RPO baixo / RTO curto” | Multi-AZ ou warm standby conforme meta | Backup eventual sem teste | Escolher DR barato demais para meta agressiva |
+| “Custo com uso previsivel” | Savings Plans/RI + rightsizing | On-Demand sem analise | Ignorar compromisso em carga estavel |
 
-## Sinais de servico
+## Checklist de eliminacao rapida
 
-- **SAA-C03**: priorize quando o cenario precisa de integracao nativa e menor carga operacional.
-- **IAM**: use quando houver necessidade de elasticidade controlada e comportamento previsivel em pico.
+1. A opcao viola requisito explicito de seguranca?
+2. A opcao adiciona componentes sem necessidade?
+3. A opcao aumenta operacao manual sem ganho tecnico?
+4. Existe servico gerenciado que resolve com menor risco?
 
-## Quando usar este modulo na revisao
+## Trincas que mais confundem no SAA-C03
 
-- Antes de simulados de arquitetura com foco em trade-offs.
-- Quando houver erro recorrente de escolha entre duas alternativas parecidas.
-- Na reta final para calibrar criterio de eliminacao de opcoes.
+- **SG vs NACL**: SG e stateful na ENI; NACL e stateless na subnet.
+- **Multi-AZ vs Read Replica**: Multi-AZ = disponibilidade; replica = escala de leitura.
+- **SQS vs SNS vs EventBridge**: fila duravel, pub/sub fan-out, roteamento por evento.
 
-## Armadilhas recorrentes
+## Uso na reta final
 
-- Resolver disponibilidade com recurso de performance.
-- Trocar simplicidade por arquitetura superdimensionada.
-- Ignorar observabilidade ao definir desenho final.
-
+- Revisar antes de cada mini-simulado.
+- Marcar em qual linha da tabela voce errou a decisao.
+- Atualizar o caderno de erros com a regra correta.
