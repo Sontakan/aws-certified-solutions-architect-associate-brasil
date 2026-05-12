@@ -37,3 +37,4 @@ SAA-C03, IAM, VPC, S3.
 ## Takeaway para prova
 
 O ponto principal e identificar qual servico reduz risco operacional mantendo aderencia ao requisito central do cenario.
+

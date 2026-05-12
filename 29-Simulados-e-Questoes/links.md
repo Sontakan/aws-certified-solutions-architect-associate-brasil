@@ -13,3 +13,4 @@
 1. Visao geral do servico.
 2. Limites, seguranca e custos.
 3. Boas praticas e padroes de arquitetura.
+

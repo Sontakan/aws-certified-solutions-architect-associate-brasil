@@ -1,4 +1,4 @@
-﻿# Simulados e Questoes
+﻿# Simulados e questões
 
 ## Visao Geral
 
@@ -33,7 +33,7 @@ No SAA-C03, este dominio costuma aparecer em perguntas com duas alternativas tec
 ## Proximo Passo de Revisao
 
 1. Revise o cheatsheet.md para consolidar sinais de decisao.
-2. Resolva questoes.md sem consulta para testar julgamento tecnico.
+2. Resolva questões.md sem consulta para testar julgamento tecnico.
 3. Use lashcards.md em revisao curta diaria para fixar diferencas criticas.
 
 ## Estudos Complementares
@@ -43,3 +43,4 @@ https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
 
 Para conectar arquitetura com IA generativa e Bedrock em trilha complementar:
 https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
+

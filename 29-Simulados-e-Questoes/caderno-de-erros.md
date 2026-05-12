@@ -19,8 +19,8 @@
 ## Rotina semanal (20 minutos)
 
 1. Agrupe erros por tema repetido.
-2. Releia apenas `cheatsheet.md` e `questoes.md` do modulo afetado.
-3. Refaca 5 questoes focadas no mesmo tipo de erro.
+2. Releia apenas `cheatsheet.md` e `questões.md` do modulo afetado.
+3. Refaca 5 questões focadas no mesmo tipo de erro.
 4. Atualize regra objetiva de decisao.
 
 ## Indicador de evolucao
@@ -28,3 +28,4 @@
 - Reincidencia alta: mesmo erro em 2 ou mais simulados.
 - Reincidencia controlada: erro corrigido em ate 1 ciclo de revisao.
 - Dominio consolidado: acerto consistente acima de 80% no tema.
+

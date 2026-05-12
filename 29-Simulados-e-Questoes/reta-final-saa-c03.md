@@ -30,3 +30,4 @@
 - Revisao curta de flashcards e traps.
 - Nada de topico novo pesado.
 - Foco em sono, ritmo e leitura atenta de enunciado.
+

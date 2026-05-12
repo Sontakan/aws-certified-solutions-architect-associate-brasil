@@ -25,3 +25,4 @@
 - Resolver disponibilidade com recurso de performance.
 - Trocar simplicidade por arquitetura superdimensionada.
 - Ignorar observabilidade ao definir desenho final.
+

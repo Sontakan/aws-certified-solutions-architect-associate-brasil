@@ -23,3 +23,4 @@
 **Padrao recomendado:** comecar simples, com componentes gerenciados e pontos de extensao claros.  
 **Motivo:** acelera entrega e reduz risco de complexidade prematura.  
 **Sinal de prova:** “entrega rapida”, “crescimento gradual”, “equipe pequena”.
+
