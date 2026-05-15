@@ -7,6 +7,12 @@
   <img src="./assets/Solution%20Architect%20Badge.png" alt="AWS Solutions Architect Associate Badge" width="180" />
 </p>
 
+<div align="center">
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="https://img.shields.io/badge/ACESSAR_CLOUDSTUDY-www.cloudstudy.com.br-38BDF8?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  </a>
+</div>
+
 <h1 align="center">AWS Solutions Architect Associate (SAA-C03)</h1>
 
 <p align="center">
