@@ -1,4 +1,4 @@
-﻿# Labs Praticos
+# Labs Praticos
 
 ## Visao Geral
 
@@ -34,7 +34,7 @@ No SAA-C03, este dominio costuma aparecer em perguntas com duas alternativas tec
 
 1. Revise o cheatsheet.md para consolidar sinais de decisao.
 2. Resolva questoes.md sem consulta para testar julgamento tecnico.
-3. Use lashcards.md em revisao curta diaria para fixar diferencas criticas.
+3. Use flashcards.md em revisao curta diaria para fixar diferencas criticas.
 
 ## Estudos Complementares
 

@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="./assets/Banner-SolutionsArchitect.png" alt="Banner AWS Solutions Architect Associate" width="100%" />
 </p>
 
@@ -30,10 +30,12 @@
 </p>
 
 <p align="center">
-  <a href="#roteiro-de-estudo">Roteiro de estudo</a> •
+  <a href="#como-usar-este-repositorio">Como usar</a> •
+  <a href="#fluxo-recomendado-de-estudo">Fluxo de estudo</a> •
+  <a href="#roteiro-de-estudo">Roteiro</a> •
   <a href="#modulos">Módulos</a> •
   <a href="./29-Simulados-e-Questoes/README.md">Simulados</a> •
-  <a href="./31-Recursos-e-Links/README.md">Recursos</a>
+  <a href="#trilhas-complementares-aws">Trilhas AWS</a>
 </p>
 
 <p align="center"><sub>Material aberto por Thiago Cardoso • <a href="https://www.linkedin.com/in/analyticsthiagocardoso">LinkedIn</a></sub></p>
@@ -58,19 +60,19 @@
 
 - **Trilha para iniciantes (do zero):** siga [Módulo 01](./01-Introducao-SAA-C03/README.md) → [Módulo 02](./02-IAM-e-Seguranca/README.md) → [Módulo 04](./04-Computacao-EC2/README.md) → [Módulo 05](./05-Alta-Disponibilidade-e-Escalabilidade/README.md) → [Módulo 06](./06-Amazon-S3-e-Armazenamento/README.md) → [Módulo 08](./08-VPC-e-Redes/README.md) → [Módulo 10](./10-Banco-de-Dados/README.md) e complete na ordem até [Módulo 31](./31-Recursos-e-Links/README.md), incluindo os labs correspondentes em cada semana.
 - **Revisão rápida:** faça revisão por [cheatsheets](./01-Introducao-SAA-C03/cheatsheet.md), [flashcards](./01-Introducao-SAA-C03/flashcards.md) e [questões](./29-Simulados-e-Questoes/README.md), priorizando módulos com maior peso no exame (segurança, resiliência, performance e custo).
-- **Reta final / últimos 14 dias:** concentre em [05](./05-Alta-Disponibilidade-e-Escalabilidade/README.md), [06](./06-Amazon-S3-e-Armazenamento/README.md), [08](./08-VPC-e-Redes/README.md), [10](./10-Banco-de-Dados/README.md), [13](./13-DNS-Route53-e-CloudFront/README.md), [14](./14-Desacoplamento-SQS-SNS-EventBridge/README.md), [17](./17-Serverless-Lambda-API-Gateway/README.md), [22](./22-Recuperacao-de-Desastres-e-Continuidade/README.md), [26](./26-Well-Architected-Framework/README.md) e finalize com o hub do [Módulo 29](./29-Simulados-e-Questoes/README.md): simulados completos, mini-simulados por domínio, caderno de erros e plano de reta final.
+- **Reta final / últimos 14 dias:** concentre em [05](./05-Alta-Disponibilidade-e-Escalabilidade/README.md), [06](./06-Amazon-S3-e-Armazenamento/README.md), [08](./08-VPC-e-Redes/README.md), [10](./10-Banco-de-Dados/README.md), [13](./13-DNS-Route53-e-CloudFront/README.md), [14](./14-Desacoplamento-SQS-SNS-EventBridge/README.md), [17](./17-Serverless-Lambda-API-Gateway/README.md), [22](./22-Recuperacao-de-Desastres-e-Continuidade/README.md), [26](./26-Well-Architected-Framework/README.md) e finalize com o hub do [Módulo 29](./29-Simulados-e-Questoes/README.md): mini-simulados, caderno de erros e plano de reta final.
 
-> Repositório completo de estudos em Português do Brasil para quem quer passar no exame com entendimento real de arquitetura na AWS.
+> Trilha aberta em Português do Brasil para revisão estruturada do exame AWS Certified Solutions Architect Associate SAA-C03.
 
-Portal publicado: https://thiago-code-lab.github.io/aws-solutions-architect-brasil/
+Repositório oficial: https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil
 
 ## 🎯 Sobre este Repositório
 
-Este repositório se diferencia por combinar conteúdo em Português do Brasil com foco em raciocínio arquitetural real (trade-offs, casos de uso e armadilhas de prova), labs curados para baixo custo, portal navegável no GitHub Pages e questões práticas no estilo do exame SAA-C03.
+Este repositório combina material open-source em Português do Brasil com foco em raciocínio arquitetural real: trade-offs, casos de uso, armadilhas de prova, labs curados para baixo custo e questões práticas no estilo do exame SAA-C03.
 
 Este material foi estruturado para um estudante de nível intermediário, que já usa AWS no dia a dia e já domina os fundamentos de cloud. O foco não é memorização cega: o objetivo é desenvolver o raciocínio esperado de um arquiteto de soluções, entendendo trade-offs entre resiliência, desempenho, segurança e custo.
 
-O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada módulo contém teoria, questões no estilo da prova, flashcards, cheatsheet, cenários arquiteturais, labs e curadoria de links oficiais. A ordem dos módulos acompanha os temas mais cobrados no exame e uma progressão de complexidade que faz sentido para revisão em 9 semanas.
+O repositório foi pensado para funcionar bem no GitHub. Cada módulo contém teoria, questões no estilo da prova, flashcards, cheatsheet, cenários arquiteturais, labs e curadoria de links oficiais. A ordem dos módulos acompanha os temas mais cobrados no exame e uma progressão de complexidade que faz sentido para revisão em 9 semanas.
 
 ## 📊 Estrutura e Domínios do Exame
 
@@ -129,7 +131,7 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 - Módulo 26: Well-Architected Framework e DR patterns
 - Módulo 27: estudos de caso reais
 - Módulo 28: labs end-to-end
-- Módulo 29: simulados completos
+- Módulo 29: simulados e revisões
 - Módulo 30 e 31: glossário e revisão de links oficiais
 
 <a id="modulos"></a>
@@ -137,37 +139,37 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 
 | # | Módulo | Domínio predominante | Status | Link |
 |---|---|---|---|---|
-| 01 | Introdução SAA-C03 | Base / Estratégia | ✅ Completo | [README](./01-Introducao-SAA-C03/README.md) |
-| 02 | IAM e Segurança | Segurança | ✅ Completo | [README](./02-IAM-e-Seguranca/README.md) |
-| 03 | IAM e Segurança (Labs) | Segurança (prática) | ✅ Completo | [Lab](./03-IAM-e-Seguranca-Labs/lab.md) |
-| 04 | Computação EC2 | Alta performance | ✅ Completo | [README](./04-Computacao-EC2/README.md) |
-| 05 | Alta Disponibilidade e Escalabilidade | Resiliência | ✅ Completo | [README](./05-Alta-Disponibilidade-e-Escalabilidade/README.md) |
-| 06 | Amazon S3 e Armazenamento | Resiliência / Custo | ✅ Completo | [README](./06-Amazon-S3-e-Armazenamento/README.md) |
-| 07 | S3 Avançado (Labs) | Resiliência (prática) | ✅ Completo | [Lab](./07-S3-Avancado-Labs/lab.md) |
-| 08 | VPC e Redes | Segurança / Resiliência | ✅ Completo | [README](./08-VPC-e-Redes/README.md) |
-| 09 | VPC e Redes (Labs) | Segurança (prática) | ✅ Completo | [Lab](./09-VPC-e-Redes-Labs/lab.md) |
-| 10 | Banco de Dados | Alta performance | ✅ Completo | [README](./10-Banco-de-Dados/README.md) |
-| 11 | RDS e Bancos Relacionais (Labs) | Alta performance (prática) | ✅ Completo | [Lab](./11-RDS-e-Bancos-Relacionais-Labs/lab.md) |
-| 12 | DynamoDB (Labs) | Alta performance (prática) | ✅ Completo | [Lab](./12-DynamoDB/lab.md) |
-| 13 | DNS, Route 53 e CloudFront | Resiliência / Performance | ✅ Completo | [README](./13-DNS-Route53-e-CloudFront/README.md) |
-| 14 | Desacoplamento: SQS, SNS, EventBridge | Resiliência | ✅ Completo | [README](./14-Desacoplamento-SQS-SNS-EventBridge/README.md) |
-| 15 | SQS e SNS (Labs) | Resiliência (prática) | ✅ Completo | [Lab](./15-SQS-SNS-Mensageria-Labs/lab.md) |
-| 16 | Containers: ECS, EKS, Fargate | Alta performance | ✅ Completo | [README](./16-Containers-ECS-EKS-Fargate/README.md) |
-| 17 | Serverless: Lambda e API Gateway | Custo / Segurança | ✅ Completo | [README](./17-Serverless-Lambda-API-Gateway/README.md) |
-| 18 | Dados e Analytics | Alta performance | ✅ Completo | [README](./18-Dados-e-Analytics/README.md) |
-| 19 | Machine Learning e IA | Serviços gerenciados | ✅ Completo | [README](./19-Machine-Learning-e-IA/README.md) |
-| 20 | Monitoramento: CloudWatch e CloudTrail | Segurança / Operações | ✅ Completo | [README](./20-Monitoramento-CloudWatch-CloudTrail/README.md) |
-| 21 | Migração e Transferência | Resiliência / Custo | ✅ Completo | [README](./21-Migracao-e-Transferencia/README.md) |
-| 22 | Recuperação de Desastres e Continuidade | Resiliência / Segurança | ✅ Completo | [README](./22-Recuperacao-de-Desastres-e-Continuidade/README.md) |
-| 23 | AWS Organizations, Governança e Custos | Segurança / Custo | ✅ Completo | [README](./23-AWS-Organizations-Governanca-e-Custos/README.md) |
-| 24 | Redes Avançadas e Conectividade Híbrida | Segurança / Performance | ✅ Completo | [README](./24-Redes-Avancadas-e-Conectividade-Hibrida/README.md) |
-| 25 | Criptografia, KMS e Gestão de Segredos | Segurança | ✅ Completo | [README](./25-Criptografia-KMS-e-Gestao-de-Segredos/README.md) |
-| 26 | Well-Architected Framework | Todos os domínios | ✅ Completo | [README](./26-Well-Architected-Framework/README.md) |
-| 27 | Casos de Uso Reais | Todos os domínios | ✅ Completo | [README](./27-Casos-de-Uso-Reais/README.md) |
-| 28 | Labs Práticos | Prática | ✅ Completo | [README](./28-Labs-Praticos/README.md) |
-| 29 | Simulados, Questões e Reta Final | Todos os domínios | ✅ Completo | [README](./29-Simulados-e-Questoes/README.md) |
-| 30 | Glossário | Revisão | ✅ Completo | [README](./30-Glossario/README.md) |
-| 31 | Recursos e Links | Revisão | ✅ Completo | [README](./31-Recursos-e-Links/README.md) |
+| 01 | Introdução SAA-C03 | Base / Estratégia | Aberto | [README](./01-Introducao-SAA-C03/README.md) |
+| 02 | IAM e Segurança | Segurança | Aberto | [README](./02-IAM-e-Seguranca/README.md) |
+| 03 | IAM e Segurança (Labs) | Segurança (prática) | Aberto | [Lab](./03-IAM-e-Seguranca-Labs/lab.md) |
+| 04 | Computação EC2 | Alta performance | Aberto | [README](./04-Computacao-EC2/README.md) |
+| 05 | Alta Disponibilidade e Escalabilidade | Resiliência | Aberto | [README](./05-Alta-Disponibilidade-e-Escalabilidade/README.md) |
+| 06 | Amazon S3 e Armazenamento | Resiliência / Custo | Aberto | [README](./06-Amazon-S3-e-Armazenamento/README.md) |
+| 07 | S3 Avançado (Labs) | Resiliência (prática) | Aberto | [Lab](./07-S3-Avancado-Labs/lab.md) |
+| 08 | VPC e Redes | Segurança / Resiliência | Aberto | [README](./08-VPC-e-Redes/README.md) |
+| 09 | VPC e Redes (Labs) | Segurança (prática) | Aberto | [Lab](./09-VPC-e-Redes-Labs/lab.md) |
+| 10 | Banco de Dados | Alta performance | Aberto | [README](./10-Banco-de-Dados/README.md) |
+| 11 | RDS e Bancos Relacionais (Labs) | Alta performance (prática) | Aberto | [Lab](./11-RDS-e-Bancos-Relacionais-Labs/lab.md) |
+| 12 | DynamoDB (Labs) | Alta performance (prática) | Aberto | [Lab](./12-DynamoDB/lab.md) |
+| 13 | DNS, Route 53 e CloudFront | Resiliência / Performance | Aberto | [README](./13-DNS-Route53-e-CloudFront/README.md) |
+| 14 | Desacoplamento: SQS, SNS, EventBridge | Resiliência | Aberto | [README](./14-Desacoplamento-SQS-SNS-EventBridge/README.md) |
+| 15 | SQS e SNS (Labs) | Resiliência (prática) | Aberto | [Lab](./15-SQS-SNS-Mensageria-Labs/lab.md) |
+| 16 | Containers: ECS, EKS, Fargate | Alta performance | Aberto | [README](./16-Containers-ECS-EKS-Fargate/README.md) |
+| 17 | Serverless: Lambda e API Gateway | Custo / Segurança | Aberto | [README](./17-Serverless-Lambda-API-Gateway/README.md) |
+| 18 | Dados e Analytics | Alta performance | Aberto | [README](./18-Dados-e-Analytics/README.md) |
+| 19 | Machine Learning e IA | Serviços gerenciados | Aberto | [README](./19-Machine-Learning-e-IA/README.md) |
+| 20 | Monitoramento: CloudWatch e CloudTrail | Segurança / Operações | Aberto | [README](./20-Monitoramento-CloudWatch-CloudTrail/README.md) |
+| 21 | Migração e Transferência | Resiliência / Custo | Aberto | [README](./21-Migracao-e-Transferencia/README.md) |
+| 22 | Recuperação de Desastres e Continuidade | Resiliência / Segurança | Aberto | [README](./22-Recuperacao-de-Desastres-e-Continuidade/README.md) |
+| 23 | AWS Organizations, Governança e Custos | Segurança / Custo | Aberto | [README](./23-AWS-Organizations-Governanca-e-Custos/README.md) |
+| 24 | Redes Avançadas e Conectividade Híbrida | Segurança / Performance | Aberto | [README](./24-Redes-Avancadas-e-Conectividade-Hibrida/README.md) |
+| 25 | Criptografia, KMS e Gestão de Segredos | Segurança | Aberto | [README](./25-Criptografia-KMS-e-Gestao-de-Segredos/README.md) |
+| 26 | Well-Architected Framework | Todos os domínios | Aberto | [README](./26-Well-Architected-Framework/README.md) |
+| 27 | Casos de Uso Reais | Todos os domínios | Aberto | [README](./27-Casos-de-Uso-Reais/README.md) |
+| 28 | Labs Práticos | Prática | Aberto | [README](./28-Labs-Praticos/README.md) |
+| 29 | Simulados, Questões e Reta Final | Todos os domínios | Aberto | [README](./29-Simulados-e-Questoes/README.md) |
+| 30 | Glossário | Revisão | Aberto | [README](./30-Glossario/README.md) |
+| 31 | Recursos e Links | Revisão | Aberto | [README](./31-Recursos-e-Links/README.md) |
 
 ## 🧩 Visão geral dos módulos
 
@@ -205,6 +207,7 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 | [30 - Glossário](./30-Glossario/README.md) | Semana 9 | Sim | Sim | Sim | Sim |
 | [31 - Recursos e Links](./31-Recursos-e-Links/README.md) | Semana 9 | Sim | Sim | Sim | Sim |
 
+<a id="como-usar-este-repositorio"></a>
 ## 🚀 Como Usar Este Repositório
 
 1. Comece pelo módulo 01 para alinhar expectativa, pesos e estratégia.
@@ -212,7 +215,31 @@ O repositório foi pensado para funcionar bem no GitHub e no GitHub Pages. Cada 
 3. Ao final de cada módulo, resolva as questões antes de abrir o gabarito.
 4. Use os flashcards para revisão espaçada e o cheatsheet para revisão rápida pré-simulado.
 5. Rode os labs em us-east-1 sempre que possível para manter consistência com o material.
-6. Feche a preparação com os estudos de caso, labs end-to-end e os três simulados completos.
+6. Feche a preparação com estudos de caso, labs end-to-end, simulados, caderno de erros e revisão por domínio.
+
+<a id="fluxo-recomendado-de-estudo"></a>
+## 🔁 Fluxo Recomendado de Estudo
+
+1. Leia o README do módulo para entender contexto, serviços e sinais de prova.
+2. Revise o cheatsheet antes de resolver questões.
+3. Resolva as questões sem abrir o bloco de resposta.
+4. Registre erros recorrentes no [caderno de erros](./29-Simulados-e-Questoes/caderno-de-erros.md).
+5. Reforce pontos fracos com flashcards e mini-simulados por domínio.
+
+## ✅ Checklist Curto de Revisão Final
+
+- Diferenciar Multi-AZ, Read Replica, backup, restore e estratégias de DR.
+- Revisar IAM, KMS, Secrets Manager, políticas e menor privilégio.
+- Comparar S3, EBS, EFS, FSx e classes de armazenamento.
+- Treinar VPC, endpoints, NAT Gateway, security groups, NACLs e roteamento.
+- Refazer questões erradas antes de iniciar novos simulados.
+
+<a id="trilhas-complementares-aws"></a>
+## 🧭 Trilhas Complementares AWS
+
+- [AWS Certified Cloud Practitioner Brasil](https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil): fundamentos para quem precisa reforçar base de cloud antes do SAA-C03.
+- [AWS Certified AI Practitioner Brasil](https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil): trilha complementar para conectar arquitetura AWS com serviços de IA generativa.
+- [CloudStudy](https://www.cloudstudy.com.br/): apoio complementar para estudo guiado e evolução contínua, sem substituir a proposta open-source deste repositório.
 
 ## ⚠️ Armadilhas comuns na prova
 

@@ -1,99 +1,73 @@
-﻿# Cartoes de Revisao
+# Flashcards de Revisão
 
 ## Card 01
 
-**Pergunta:** Qual e o foco central deste modulo?
+**Pergunta:** O que fazer antes de abrir a resposta de uma questão?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Dominar decisoes de Simulados orientadas por cenarios da prova SAA-C03.
+Identificar o requisito dominante, eliminar alternativas claramente incompatíveis e só então comparar trade-offs.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual erro recorrente neste tema?
+**Pergunta:** Como usar o caderno de erros sem perder tempo?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Aplicar resposta generica sem validar sinais especificos de simulados no enunciado.
+Registrar o serviço confundido, o sinal ignorado no enunciado e a regra prática para não repetir o erro.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Como identificar a melhor alternativa?
+**Pergunta:** Qual é o principal sinal de pegadinha em perguntas de custo?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Priorizar requisito dominante e servicos que cobrem gestao de tempo e caderno de erros com menor operacao.
+Escolher a opção mais barata sem validar disponibilidade, latência, retenção mínima ou operação recorrente.
 
 </details>
 
 ## Card 04
 
-**Pergunta:** Qual trade-off costuma aparecer?
+**Pergunta:** Quando uma alternativa gerenciada tende a ser melhor?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Equilibrar gestao de tempo com custo, desempenho e simplicidade operacional.
+Quando o enunciado pede baixa operação, escalabilidade automática, resiliência gerenciada ou menor esforço de manutenção.
 
 </details>
 
 ## Card 05
 
-**Pergunta:** Que sinal de arquitetura madura aparece em questoes?
+**Pergunta:** O que diferencia uma resposta correta de uma resposta apenas possível?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Uso intencional de caderno de erros com observabilidade para reduzir risco operacional.
+A correta atende ao requisito explícito com menor risco operacional e sem componentes desnecessários.
 
 </details>
 
 ## Card 06
 
-**Pergunta:** Como evitar armadilha de overengineering?
+**Pergunta:** Como revisar por domínio na reta final?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Evitar componentes extras quando eliminacao ou acerto por dominio ja resolve o requisito.
+Agrupe erros por resiliência, performance, segurança e custo, depois refaça apenas os pontos com maior recorrência.
 
 </details>
-
-## Card 07
-
-**Pergunta:** Qual ponto revisar antes do simulado?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-**Resposta:**
-Diferencas praticas entre acerto por dominio e reta final.
-
-</details>
-
-## Card 08
-
-**Pergunta:** Qual fechamento eficiente de revisao?
-
-<details>
-<summary><strong>Ver resposta</strong></summary>
-
-**Resposta:**
-Converter erros deste modulo em regras objetivas de decisao sobre simulados.
-
-</details>
-
-

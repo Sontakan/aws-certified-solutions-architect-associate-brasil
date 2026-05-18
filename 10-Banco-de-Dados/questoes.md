@@ -1,6 +1,6 @@
-﻿# Questoes de Revisao
+# Questoes de Revisao
 
-## QuestÃ£o 1
+## Questão 1
 
 Um cenario exige decisao correta em Banco de Dados. Qual abordagem e mais aderente?
 
@@ -12,17 +12,17 @@ D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-âœ… **Resposta correta:** B
+â✅ **Resposta correta:** B
 
-**ExplicaÃ§Ã£o:**
+**Explicação:**
 A alternativa B cobre o objetivo tecnico de banco de dados com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A estÃ¡ errada:**
+**Por que a alternativa A está errada:**
 Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
 
-## QuestÃ£o 2
+## Questão 2
 
 Qual escolha reduz risco operacional neste dominio?
 
@@ -34,17 +34,17 @@ D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-âœ… **Resposta correta:** B
+â✅ **Resposta correta:** B
 
-**ExplicaÃ§Ã£o:**
+**Explicação:**
 A alternativa B cobre o objetivo tecnico de banco de dados com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A estÃ¡ errada:**
+**Por que a alternativa A está errada:**
 Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
 
-## QuestÃ£o 3
+## Questão 3
 
 Para manter custo sob controle sem perder qualidade tecnica, o que fazer?
 
@@ -56,20 +56,19 @@ D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-âœ… **Resposta correta:** B
+â✅ **Resposta correta:** B
 
-**ExplicaÃ§Ã£o:**
+**Explicação:**
 A alternativa B cobre o objetivo tecnico de banco de dados com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A estÃ¡ errada:**
+**Por que a alternativa A está errada:**
 Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
 
-## QuestÃ£o 4
+## Questão 4
 
-Qual alternativa tende a ser incorreta na prova de 
-
+Qual alternativa tende a ser incorreta na prova para este tema?
 A) A que atende requisito dominante com menor complexidade.
 B) A que ignora sinais de ElastiCache e dependencias da arquitetura.
 C) Adicionar componentes sem necessidade do enunciado.
@@ -78,17 +77,17 @@ D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-âœ… **Resposta correta:** B
+â✅ **Resposta correta:** B
 
-**ExplicaÃ§Ã£o:**
+**Explicação:**
 A alternativa B cobre o objetivo tecnico de banco de dados com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A estÃ¡ errada:**
+**Por que a alternativa A está errada:**
 Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
 
-## QuestÃ£o 5
+## Questão 5
 
 Qual revisao aumenta acerto neste modulo?
 
@@ -100,12 +99,12 @@ D) Ignorar requisito explicito de seguranca, disponibilidade ou custo.
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
-âœ… **Resposta correta:** B
+â✅ **Resposta correta:** B
 
-**ExplicaÃ§Ã£o:**
+**Explicação:**
 A alternativa B cobre o objetivo tecnico de banco de dados com melhor equilibrio entre requisito, risco e operacao.
 
-**Por que a alternativa A estÃ¡ errada:**
+**Por que a alternativa A está errada:**
 Ela nao atende o requisito principal com a mesma consistencia arquitetural.
 
 </details>
