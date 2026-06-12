@@ -3,18 +3,42 @@
 </p>
 
 <p align="center">
-  <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="240" />
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="260" />
+  </a>
+</p>
+
+<p align="center">
+  <strong> Estude para a AWS Solutions Architect Associate (SAA-C03) com teoria, labs, flashcards, cheatsheets e simulados.</strong>
+</p>
+
+<p align="center">
+  <strong> Entre na lista de espera da CloudStudy e receba acesso antecipado à plataforma.</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="https://img.shields.io/badge/ENTRAR_NA_WAITLIST-CloudStudy-2563EB?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
   <img src="./assets/Solution%20Architect%20Badge.png" alt="AWS Solutions Architect Associate Badge" width="180" />
 </p>
 
 <div align="center">
-  <a href="https://www.instagram.com/cloudstudy.ai/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.cloudstudy.com.br/">
-    <img src="https://img.shields.io/badge/ACESSAR_CLOUDSTUDY-www.cloudstudy.com.br-38BDF8?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  </a>
+
+<a href="https://www.cloudstudy.com.br/">
+  <img src="https://img.shields.io/badge/🌐_CloudStudy-cloudstudy.com.br-2563EB?style=for-the-badge" />
+</a>
+
+<a href="https://www.instagram.com/cloudstudy.ai/">
+  <img src="https://img.shields.io/badge/Instagram-@cloudstudy.ai-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+
 </div>
+
+<br>
 
 <h1 align="center">AWS Solutions Architect Associate (SAA-C03)</h1>
 
