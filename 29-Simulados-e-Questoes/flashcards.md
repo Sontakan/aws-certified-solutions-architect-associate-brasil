@@ -71,3 +71,15 @@ A correta atende ao requisito explícito com menor risco operacional e sem compo
 Agrupe erros por resiliência, performance, segurança e custo, depois refaça apenas os pontos com maior recorrência.
 
 </details>
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---
