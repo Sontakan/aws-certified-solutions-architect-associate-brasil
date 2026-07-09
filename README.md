@@ -20,6 +20,12 @@
   <a href="https://www.cloudstudy.com.br/">
     <img src="https://img.shields.io/badge/ENTRAR_NA_WAITLIST-CloudStudy-2563EB?style=for-the-badge&logo=amazonaws&logoColor=white" />
   </a>
+
+## Patrocínio educacional
+
+<p align="center">
+  Este projeto conta com apoio da
+  <a href="https://www.cloudstudy.com.br">CloudStudy</a>.
 </p>
 
 <p align="center">
