@@ -1,2 +1,3 @@
-github: [Thiago-code-lab]
-custom: ["https://www.cloudstudy.com.br"]
+custom:
+  - "https://github.com/CloudStudyAI"
+  - "https://www.cloudstudy.com.br"
