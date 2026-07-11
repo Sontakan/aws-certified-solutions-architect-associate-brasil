@@ -17,27 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Publish static site to gh-pages
-        shell: bash
-        run: |
-          set -euo pipefail
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-          TMP_DIR="$(mktemp -d)"
-          rsync -av --delete --exclude '.git' --exclude '.github' ./ "$TMP_DIR/"
+      - name: Install MkDocs Material
+        run: pip install mkdocs-material
 
-          git switch --orphan gh-pages
-          git rm -rf . >/dev/null 2>&1 || true
-
-          cp -R "$TMP_DIR"/. .
-          touch .nojekyll
-
-          git add -A
-          git commit -m "deploy: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || {
-            echo "No changes to publish"
-            exit 0
-          }
-
-          git push --force origin gh-pages
+      - name: Build and Deploy
+        run: mkdocs gh-deploy --force -f .site/mkdocs.yml

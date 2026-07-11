@@ -1,0 +1,245 @@
+site_name: AWS Solutions Architect Associate - Brasil
+site_description: Trilha open-source em PT-BR para a certificação AWS SAA-C03
+site_url: https://thiago-code-lab.github.io/aws-certified-solutions-architect-associate-brasil/
+repo_url: https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil
+repo_name: GitHub
+docs_dir: ..
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Semana 1:
+      - "01 - Introdução SAA-C03": 01-Introducao-SAA-C03/README.md
+      - "01 - Cheatsheet": 01-Introducao-SAA-C03/cheatsheet.md
+      - "01 - Flashcards": 01-Introducao-SAA-C03/flashcards.md
+      - "01 - Questões": 01-Introducao-SAA-C03/questoes.md
+      - "01 - Lab": 01-Introducao-SAA-C03/lab.md
+      - "01 - Casos de Uso": 01-Introducao-SAA-C03/casos-de-uso.md
+      - "01 - Links": 01-Introducao-SAA-C03/links.md
+      - "02 - IAM e Segurança": 02-IAM-e-Seguranca/README.md
+      - "02 - Cheatsheet": 02-IAM-e-Seguranca/cheatsheet.md
+      - "02 - Flashcards": 02-IAM-e-Seguranca/flashcards.md
+      - "02 - Questões": 02-IAM-e-Seguranca/questoes.md
+      - "02 - Lab": 02-IAM-e-Seguranca/lab.md
+      - "02 - Casos de Uso": 02-IAM-e-Seguranca/casos-de-uso.md
+      - "02 - Links": 02-IAM-e-Seguranca/links.md
+      - "03 - IAM Labs": 03-IAM-e-Seguranca-Labs/lab.md
+      - "03 - Links": 03-IAM-e-Seguranca-Labs/links.md
+  - Semana 2:
+      - "04 - Computação EC2": 04-Computacao-EC2/README.md
+      - "04 - Cheatsheet": 04-Computacao-EC2/cheatsheet.md
+      - "04 - Flashcards": 04-Computacao-EC2/flashcards.md
+      - "04 - Questões": 04-Computacao-EC2/questoes.md
+      - "04 - Lab": 04-Computacao-EC2/lab.md
+      - "04 - Casos de Uso": 04-Computacao-EC2/casos-de-uso.md
+      - "04 - Links": 04-Computacao-EC2/links.md
+      - "05 - Alta Disponibilidade": 05-Alta-Disponibilidade-e-Escalabilidade/README.md
+      - "05 - Cheatsheet": 05-Alta-Disponibilidade-e-Escalabilidade/cheatsheet.md
+      - "05 - Flashcards": 05-Alta-Disponibilidade-e-Escalabilidade/flashcards.md
+      - "05 - Questões": 05-Alta-Disponibilidade-e-Escalabilidade/questoes.md
+      - "05 - Lab": 05-Alta-Disponibilidade-e-Escalabilidade/lab.md
+      - "05 - Casos de Uso": 05-Alta-Disponibilidade-e-Escalabilidade/casos-de-uso.md
+      - "05 - Links": 05-Alta-Disponibilidade-e-Escalabilidade/links.md
+  - Semana 3:
+      - "06 - Amazon S3": 06-Amazon-S3-e-Armazenamento/README.md
+      - "06 - Cheatsheet": 06-Amazon-S3-e-Armazenamento/cheatsheet.md
+      - "06 - Flashcards": 06-Amazon-S3-e-Armazenamento/flashcards.md
+      - "06 - Questões": 06-Amazon-S3-e-Armazenamento/questoes.md
+      - "06 - Casos de Uso": 06-Amazon-S3-e-Armazenamento/casos-de-uso.md
+      - "07 - S3 Labs": 07-S3-Avancado-Labs/lab.md
+      - "07 - Links": 07-S3-Avancado-Labs/links.md
+      - "08 - VPC e Redes": 08-VPC-e-Redes/README.md
+      - "08 - Cheatsheet": 08-VPC-e-Redes/cheatsheet.md
+      - "08 - Flashcards": 08-VPC-e-Redes/flashcards.md
+      - "08 - Questões": 08-VPC-e-Redes/questoes.md
+      - "08 - Casos de Uso": 08-VPC-e-Redes/casos-de-uso.md
+      - "09 - VPC Labs": 09-VPC-e-Redes-Labs/lab.md
+      - "09 - Links": 09-VPC-e-Redes-Labs/links.md
+  - Semana 4:
+      - "10 - Banco de Dados": 10-Banco-de-Dados/README.md
+      - "10 - Cheatsheet": 10-Banco-de-Dados/cheatsheet.md
+      - "10 - Flashcards": 10-Banco-de-Dados/flashcards.md
+      - "10 - Questões": 10-Banco-de-Dados/questoes.md
+      - "10 - Casos de Uso": 10-Banco-de-Dados/casos-de-uso.md
+      - "11 - RDS Labs": 11-RDS-e-Bancos-Relacionais-Labs/lab.md
+      - "11 - Links": 11-RDS-e-Bancos-Relacionais-Labs/links.md
+      - "12 - DynamoDB Labs": 12-DynamoDB/lab.md
+      - "12 - Links": 12-DynamoDB/links.md
+      - "13 - Route 53 e CloudFront": 13-DNS-Route53-e-CloudFront/README.md
+      - "13 - Cheatsheet": 13-DNS-Route53-e-CloudFront/cheatsheet.md
+      - "13 - Flashcards": 13-DNS-Route53-e-CloudFront/flashcards.md
+      - "13 - Questões": 13-DNS-Route53-e-CloudFront/questoes.md
+      - "13 - Casos de Uso": 13-DNS-Route53-e-CloudFront/casos-de-uso.md
+  - Semana 5:
+      - "14 - Desacoplamento": 14-Desacoplamento-SQS-SNS-EventBridge/README.md
+      - "14 - Cheatsheet": 14-Desacoplamento-SQS-SNS-EventBridge/cheatsheet.md
+      - "14 - Flashcards": 14-Desacoplamento-SQS-SNS-EventBridge/flashcards.md
+      - "14 - Questões": 14-Desacoplamento-SQS-SNS-EventBridge/questoes.md
+      - "14 - Casos de Uso": 14-Desacoplamento-SQS-SNS-EventBridge/casos-de-uso.md
+      - "15 - SQS/SNS Labs": 15-SQS-SNS-Mensageria-Labs/lab.md
+      - "15 - Links": 15-SQS-SNS-Mensageria-Labs/links.md
+      - "16 - Containers": 16-Containers-ECS-EKS-Fargate/README.md
+      - "16 - Cheatsheet": 16-Containers-ECS-EKS-Fargate/cheatsheet.md
+      - "16 - Flashcards": 16-Containers-ECS-EKS-Fargate/flashcards.md
+      - "16 - Questões": 16-Containers-ECS-EKS-Fargate/questoes.md
+      - "16 - Casos de Uso": 16-Containers-ECS-EKS-Fargate/casos-de-uso.md
+  - Semana 6:
+      - "17 - Serverless": 17-Serverless-Lambda-API-Gateway/README.md
+      - "17 - Cheatsheet": 17-Serverless-Lambda-API-Gateway/cheatsheet.md
+      - "17 - Flashcards": 17-Serverless-Lambda-API-Gateway/flashcards.md
+      - "17 - Questões": 17-Serverless-Lambda-API-Gateway/questoes.md
+      - "17 - Lab": 17-Serverless-Lambda-API-Gateway/lab.md
+      - "17 - Casos de Uso": 17-Serverless-Lambda-API-Gateway/casos-de-uso.md
+      - "17 - Links": 17-Serverless-Lambda-API-Gateway/links.md
+      - "18 - Dados e Analytics": 18-Dados-e-Analytics/README.md
+      - "18 - Cheatsheet": 18-Dados-e-Analytics/cheatsheet.md
+      - "18 - Flashcards": 18-Dados-e-Analytics/flashcards.md
+      - "18 - Questões": 18-Dados-e-Analytics/questoes.md
+      - "18 - Lab": 18-Dados-e-Analytics/lab.md
+      - "18 - Casos de Uso": 18-Dados-e-Analytics/casos-de-uso.md
+      - "18 - Links": 18-Dados-e-Analytics/links.md
+  - Semana 7:
+      - "19 - Machine Learning e IA": 19-Machine-Learning-e-IA/README.md
+      - "19 - Cheatsheet": 19-Machine-Learning-e-IA/cheatsheet.md
+      - "19 - Flashcards": 19-Machine-Learning-e-IA/flashcards.md
+      - "19 - Questões": 19-Machine-Learning-e-IA/questoes.md
+      - "19 - Lab": 19-Machine-Learning-e-IA/lab.md
+      - "19 - Casos de Uso": 19-Machine-Learning-e-IA/casos-de-uso.md
+      - "19 - Links": 19-Machine-Learning-e-IA/links.md
+      - "20 - Monitoramento": 20-Monitoramento-CloudWatch-CloudTrail/README.md
+      - "20 - Cheatsheet": 20-Monitoramento-CloudWatch-CloudTrail/cheatsheet.md
+      - "20 - Flashcards": 20-Monitoramento-CloudWatch-CloudTrail/flashcards.md
+      - "20 - Questões": 20-Monitoramento-CloudWatch-CloudTrail/questoes.md
+      - "20 - Lab": 20-Monitoramento-CloudWatch-CloudTrail/lab.md
+      - "20 - Casos de Uso": 20-Monitoramento-CloudWatch-CloudTrail/casos-de-uso.md
+      - "20 - Links": 20-Monitoramento-CloudWatch-CloudTrail/links.md
+      - "21 - Migração": 21-Migracao-e-Transferencia/README.md
+      - "21 - Cheatsheet": 21-Migracao-e-Transferencia/cheatsheet.md
+      - "21 - Flashcards": 21-Migracao-e-Transferencia/flashcards.md
+      - "21 - Questões": 21-Migracao-e-Transferencia/questoes.md
+      - "21 - Lab": 21-Migracao-e-Transferencia/lab.md
+      - "21 - Casos de Uso": 21-Migracao-e-Transferencia/casos-de-uso.md
+      - "21 - Links": 21-Migracao-e-Transferencia/links.md
+  - Semana 8:
+      - "22 - Recuperação de Desastres": 22-Recuperacao-de-Desastres-e-Continuidade/README.md
+      - "22 - Cheatsheet": 22-Recuperacao-de-Desastres-e-Continuidade/cheatsheet.md
+      - "22 - Flashcards": 22-Recuperacao-de-Desastres-e-Continuidade/flashcards.md
+      - "22 - Questões": 22-Recuperacao-de-Desastres-e-Continuidade/questoes.md
+      - "22 - Lab": 22-Recuperacao-de-Desastres-e-Continuidade/lab.md
+      - "22 - Casos de Uso": 22-Recuperacao-de-Desastres-e-Continuidade/casos-de-uso.md
+      - "22 - Links": 22-Recuperacao-de-Desastres-e-Continuidade/links.md
+      - "23 - Organizations e Custos": 23-AWS-Organizations-Governanca-e-Custos/README.md
+      - "23 - Cheatsheet": 23-AWS-Organizations-Governanca-e-Custos/cheatsheet.md
+      - "23 - Flashcards": 23-AWS-Organizations-Governanca-e-Custos/flashcards.md
+      - "23 - Questões": 23-AWS-Organizations-Governanca-e-Custos/questoes.md
+      - "23 - Lab": 23-AWS-Organizations-Governanca-e-Custos/lab.md
+      - "23 - Casos de Uso": 23-AWS-Organizations-Governanca-e-Custos/casos-de-uso.md
+      - "23 - Links": 23-AWS-Organizations-Governanca-e-Custos/links.md
+      - "24 - Redes Avançadas": 24-Redes-Avancadas-e-Conectividade-Hibrida/README.md
+      - "24 - Cheatsheet": 24-Redes-Avancadas-e-Conectividade-Hibrida/cheatsheet.md
+      - "24 - Flashcards": 24-Redes-Avancadas-e-Conectividade-Hibrida/flashcards.md
+      - "24 - Questões": 24-Redes-Avancadas-e-Conectividade-Hibrida/questoes.md
+      - "24 - Lab": 24-Redes-Avancadas-e-Conectividade-Hibrida/lab.md
+      - "24 - Casos de Uso": 24-Redes-Avancadas-e-Conectividade-Hibrida/casos-de-uso.md
+      - "24 - Links": 24-Redes-Avancadas-e-Conectividade-Hibrida/links.md
+      - "25 - Criptografia e KMS": 25-Criptografia-KMS-e-Gestao-de-Segredos/README.md
+      - "25 - Cheatsheet": 25-Criptografia-KMS-e-Gestao-de-Segredos/cheatsheet.md
+      - "25 - Flashcards": 25-Criptografia-KMS-e-Gestao-de-Segredos/flashcards.md
+      - "25 - Questões": 25-Criptografia-KMS-e-Gestao-de-Segredos/questoes.md
+      - "25 - Lab": 25-Criptografia-KMS-e-Gestao-de-Segredos/lab.md
+      - "25 - Casos de Uso": 25-Criptografia-KMS-e-Gestao-de-Segredos/casos-de-uso.md
+      - "25 - Links": 25-Criptografia-KMS-e-Gestao-de-Segredos/links.md
+  - Semana 9:
+      - "26 - Well-Architected": 26-Well-Architected-Framework/README.md
+      - "26 - Cheatsheet": 26-Well-Architected-Framework/cheatsheet.md
+      - "26 - Flashcards": 26-Well-Architected-Framework/flashcards.md
+      - "26 - Questões": 26-Well-Architected-Framework/questoes.md
+      - "26 - Lab": 26-Well-Architected-Framework/lab.md
+      - "26 - Casos de Uso": 26-Well-Architected-Framework/casos-de-uso.md
+      - "26 - Links": 26-Well-Architected-Framework/links.md
+      - "27 - Casos de Uso Reais": 27-Casos-de-Uso-Reais/README.md
+      - "27 - Cheatsheet": 27-Casos-de-Uso-Reais/cheatsheet.md
+      - "27 - Flashcards": 27-Casos-de-Uso-Reais/flashcards.md
+      - "27 - Questões": 27-Casos-de-Uso-Reais/questoes.md
+      - "27 - Lab": 27-Casos-de-Uso-Reais/lab.md
+      - "27 - Casos de Uso": 27-Casos-de-Uso-Reais/casos-de-uso.md
+      - "27 - Links": 27-Casos-de-Uso-Reais/links.md
+      - "28 - Labs Práticos": 28-Labs-Praticos/README.md
+      - "28 - Cheatsheet": 28-Labs-Praticos/cheatsheet.md
+      - "28 - Flashcards": 28-Labs-Praticos/flashcards.md
+      - "28 - Questões": 28-Labs-Praticos/questoes.md
+      - "28 - Lab": 28-Labs-Praticos/lab.md
+      - "28 - Casos de Uso": 28-Labs-Praticos/casos-de-uso.md
+      - "28 - Links": 28-Labs-Praticos/links.md
+      - "29 - Simulados e Reta Final": 29-Simulados-e-Questoes/README.md
+      - "29 - Cheatsheet": 29-Simulados-e-Questoes/cheatsheet.md
+      - "29 - Flashcards": 29-Simulados-e-Questoes/flashcards.md
+      - "29 - Questões": 29-Simulados-e-Questoes/questoes.md
+      - "29 - Lab": 29-Simulados-e-Questoes/lab.md
+      - "29 - Casos de Uso": 29-Simulados-e-Questoes/casos-de-uso.md
+      - "29 - Links": 29-Simulados-e-Questoes/links.md
+      - "29 - Caderno de Erros": 29-Simulados-e-Questoes/caderno-de-erros.md
+      - "29 - Mini-Simulados por Domínio": 29-Simulados-e-Questoes/mini-simulados-por-dominio.md
+      - "29 - Reta Final": 29-Simulados-e-Questoes/reta-final-saa-c03.md
+      - "30 - Glossário": 30-Glossario/README.md
+      - "30 - Cheatsheet": 30-Glossario/cheatsheet.md
+      - "30 - Flashcards": 30-Glossario/flashcards.md
+      - "30 - Questões": 30-Glossario/questoes.md
+      - "30 - Lab": 30-Glossario/lab.md
+      - "30 - Casos de Uso": 30-Glossario/casos-de-uso.md
+      - "30 - Links": 30-Glossario/links.md
+      - "31 - Recursos e Links": 31-Recursos-e-Links/README.md
+      - "31 - Cheatsheet": 31-Recursos-e-Links/cheatsheet.md
+      - "31 - Flashcards": 31-Recursos-e-Links/flashcards.md
+      - "31 - Questões": 31-Recursos-e-Links/questoes.md
+      - "31 - Lab": 31-Recursos-e-Links/lab.md
+      - "31 - Casos de Uso": 31-Recursos-e-Links/casos-de-uso.md
+      - "31 - Links": 31-Recursos-e-Links/links.md
+  - Extras:
+      - "Contribuir": CONTRIBUTING.md
+      - "Changelog": CHANGELOG.md
+      - "Segurança": SECURITY.md
+      - "Trilhas por Domínio": TRILHAS_POR_DOMINIO.md
