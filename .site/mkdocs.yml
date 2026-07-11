@@ -4,7 +4,6 @@ site_url: https://thiago-code-lab.github.io/aws-certified-solutions-architect-as
 repo_url: https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil
 repo_name: GitHub
 docs_dir: ..
-site_dir: ../site_output
 
 theme:
   name: material
