@@ -50,7 +50,7 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Início: index.md
+  - Início: README.md
   - Semana 1:
       - "01 - Introdução SAA-C03": 01-Introducao-SAA-C03/README.md
       - "01 - Cheatsheet": 01-Introducao-SAA-C03/cheatsheet.md
